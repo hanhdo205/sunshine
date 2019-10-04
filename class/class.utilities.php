@@ -571,11 +571,35 @@ class UTILITIES {
 			case 1 :
 				$interval = 'P1M';
 				break;
+			case 2 :
+				$interval = 'P2M';
+				break;
 			case 3 :
 				$interval = 'P3M';
 				break;
+			case 4 :
+				$interval = 'P4M';
+				break;
+			case 5 :
+				$interval = 'P5M';
+				break;
 			case 6 :
 				$interval = 'P6M';
+				break;
+			case 7 :
+				$interval = 'P7M';
+				break;
+			case 8 :
+				$interval = 'P8M';
+				break;
+			case 9 :
+				$interval = 'P9M';
+				break;
+			case 10 :
+				$interval = 'P10M';
+				break;
+			case 11 :
+				$interval = 'P11M';
 				break;
 			case 12 :
 				$interval = 'P1Y';

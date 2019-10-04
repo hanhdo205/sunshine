@@ -975,7 +975,6 @@ if (isset($_POST['action']) && $_POST['action']=='reminder') {
 	if ($dbf_cmnt->totalRows($result) > 0) {
 		 while ($row = $dbf_cmnt->nextData($result)) {
 			$item = array();
-			$is_fee = false;
 			$tuition_fee = $row['tuition_fee'];
 			$meals_fee = $row['meals_fee'];
 			$tools_fee = $row['tools_fee'];
@@ -989,23 +988,20 @@ if (isset($_POST['action']) && $_POST['action']=='reminder') {
 			  $tuition_month = date("n", $tuition_reminder);
 			  if($this_month == $tuition_month)
 				$item[] = T_('Tuition');
-				$is_fee = true;
 			}
 			if (($meals_reminder = strtotime($meals_reminder_date)) !== false)
 			{
 			  $meals_month = date("n", $meals_reminder);
 			  if($this_month == $meals_month)
 				$item[] = T_('Meals');
-				$is_fee = true;
 			}
 			if (($tools_reminder = strtotime($tools_reminder_date)) !== false)
 			{
 			  $tools_month = date("n", $tools_reminder);
 			  if($this_month == $tools_month)
 				$item[] = T_('Tools');
-				$is_fee = true;
 			}
-			if($is_fee)
+			if(!empty($item))
 			$list[] = array(
 				"ma_id"=>'<a href="member-edit/?id='.$row['id'].'" data-id="'.$row['id'].'" data-action="edit_member" data-toggle="tooltip" title="" style="overflow: hidden; position: relative;" data-original-title="Edit">'.$row['ma_id'].'</a>',
 				"student_name"=>$row['first_name'],
