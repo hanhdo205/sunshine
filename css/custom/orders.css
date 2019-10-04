@@ -1,0 +1,14 @@
+.customer-badge {
+  padding: 0.75em 0.5em!important;
+  font-size: 90%!important;
+  width: 100%;
+  max-width: 110px;
+  text-align: center;
+  margin:0 auto;
+}
+.table th, .table td {
+  text-align: center;
+}
+.dropright .dropdown-toggle::after {
+    display:none;
+}

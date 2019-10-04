@@ -1,0 +1,3563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vietquoc\n"
+"POT-Creation-Date: 2019-08-20 17:08+0700\n"
+"PO-Revision-Date: 2019-08-20 17:08+0700\n"
+"Last-Translator: \n"
+"Language-Team: hanhdo205@gmail.com\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e;T_;T_ngettext\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPathExcluded-0: locales/vi_VN/js\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: vendors\n"
+"X-Poedit-SearchPathExcluded-4: phpgettext/examples\n"
+"X-Poedit-SearchPath-0: modum/member\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: modum/member/do_ajax.php:39 modum/member/do_ajax.php:44
+#: modum/member/do_ajax.php:45 modum/member/_booking_detail.php:94
+#: modum/member/_orders.php:56 modum/member/_orders_detail.php:526
+#: modum/member/_payment_detail.php:462 modum/member/_revenue_detail.php:76
+#: index.php:139 index.php:142
+msgid "Pending"
+msgstr "製作待ち"
+
+#: modum/member/do_ajax.php:39 modum/member/do_ajax.php:44
+#: modum/member/do_ajax.php:45 modum/member/_booking_detail.php:94
+#: modum/member/_orders.php:60 modum/member/_orders_detail.php:527
+#: modum/member/_orders_detail.php:528 modum/member/_payment_detail.php:463
+#: modum/member/_payment_detail.php:464 modum/member/_revenue_detail.php:76
+#: index.php:142
+msgid "Assigning"
+msgstr "製作中"
+
+#: modum/member/do_ajax.php:39 modum/member/do_ajax.php:44
+#: modum/member/do_ajax.php:45 modum/member/_booking_detail.php:94
+#: modum/member/_orders.php:64 modum/member/_orders_detail.php:529
+#: modum/member/_payment_detail.php:465 modum/member/_revenue_detail.php:76
+#: index.php:142
+msgid "Processing"
+msgstr "製作中"
+
+#: modum/member/do_ajax.php:39 modum/member/do_ajax.php:44
+#: modum/member/do_ajax.php:45 modum/member/_booking_detail.php:94
+#: modum/member/_orders.php:68 modum/member/_orders_detail.php:530
+#: modum/member/_payment_detail.php:466 modum/member/_revenue_detail.php:76
+#: index.php:142
+msgid "Completed"
+msgstr "出荷準備中"
+
+#: modum/member/do_ajax.php:39 modum/member/do_ajax.php:44
+#: modum/member/do_ajax.php:45 modum/member/_booking_detail.php:94
+#: modum/member/_orders.php:72 modum/member/_orders_detail.php:531
+#: modum/member/_payment_detail.php:467 modum/member/_revenue_detail.php:76
+#: index.php:142
+msgid "Delivered"
+msgstr "納品済"
+
+#: modum/member/do_ajax.php:41 modum/member/do_ajax.php:42
+#: modum/member/do_ajax.php:47 modum/member/_booking_detail.php:96
+#: modum/member/_payment.php:143
+msgid "Unpaid"
+msgstr "未入金"
+
+#: modum/member/do_ajax.php:41 modum/member/do_ajax.php:42
+#: modum/member/do_ajax.php:47 modum/member/do_ajax.php:1927
+#: modum/member/_booking_detail.php:96 modum/member/_orders_detail.php:716
+#: modum/member/_payment.php:47 modum/member/_payment.php:144
+#: modum/member/_payment_detail.php:622
+msgid "Paid"
+msgstr "入金済み"
+
+#: modum/member/do_ajax.php:41 modum/member/do_ajax.php:42
+#: modum/member/do_ajax.php:47 modum/member/_booking_detail.php:96
+#: modum/member/_payment.php:55 modum/member/_payment.php:145
+msgid "Partial payment"
+msgstr "一部入金"
+
+#: modum/member/do_ajax.php:45 modum/member/do_ajax.php:984
+#: modum/member/do_ajax.php:997 modum/member/_orders - Copy.php:97
+#: modum/member/_orders.php:52 modum/member/_orders.php:139
+#: modum/member/_orders.php:151
+msgid "Priority"
+msgstr "お急ぎ対応"
+
+#: modum/member/do_ajax.php:49 index.php:145
+msgid "Normal"
+msgstr "普通"
+
+#: modum/member/do_ajax.php:49 modum/member/_booking_confirm.php:429
+#: index.php:145
+msgid "Urgent"
+msgstr "お急ぎ対応"
+
+#: modum/member/do_ajax.php:50 modum/member/_booking.php:238
+#: modum/member/_booking.php:429 index.php:144
+msgid "CAD Design(Data Only)"
+msgstr "CADデザイン（データ加工のみ）"
+
+#: modum/member/do_ajax.php:50 index.php:144
+msgid "CAD Design Crown (single crown)"
+msgstr "CADデザイン　クラウン(単冠)"
+
+#: modum/member/do_ajax.php:50 index.php:144
+msgid "CAD Design Bridge"
+msgstr "CADデザイン　ブリッジ"
+
+#: modum/member/do_ajax.php:50 index.php:144
+msgid "CAD Design Clasp"
+msgstr "CADデザイン　クラスプ"
+
+#: modum/member/do_ajax.php:50 index.php:144
+msgid "CAD Design Denture Frame"
+msgstr "CADデザイン　デンチャーフレーム"
+
+#: modum/member/do_ajax.php:50 modum/member/_booking.php:237
+#: modum/member/_booking.php:443 index.php:144
+msgid "Fullzirconia"
+msgstr "フルジルコニア"
+
+#: modum/member/do_ajax.php:50 modum/member/_booking.php:239
+#: modum/member/_booking.php:447 index.php:144
+msgid "3D Printer Model"
+msgstr "3D模型"
+
+#: modum/member/do_ajax.php:50 modum/member/_booking.php:451 index.php:144
+msgid "Frame Design"
+msgstr "フレームデザイン"
+
+#: modum/member/do_ajax.php:398 modum/member/_booking.php:246
+#: modum/member/_booking.php:731 modum/member/_booking.php:732
+#, php-format
+msgid "※ Extra charge (per one + %s%%)"
+msgstr "※追加料金 (ご注文合計額から + %s%%増し)"
+
+#: modum/member/do_ajax.php:464 modum/member/do_ajax.php:1576
+#: modum/member/_default_backup.php:51 modum/member/_default_backup.php:283
+#: modum/member/_default_backup.php:289 modum/member/_revenue_detail.php:38
+#, php-format
+msgid "%s/%s"
+msgstr "%s年%s月"
+
+#: modum/member/do_ajax.php:465 modum/member/_booking_confirm.php:420
+#: modum/member/_booking_confirm.php:486 modum/member/_booking_confirm.php:493
+#: modum/member/_booking_confirm.php:501 modum/member/_booking_detail.php:151
+#: modum/member/_booking_detail.php:153 modum/member/_booking_detail.php:191
+#: modum/member/_booking_detail.php:197 modum/member/_booking_detail.php:204
+#: modum/member/_default_backup.php:496 modum/member/_default_backup_2.php:357
+#: modum/member/_revenue_detail.php:47 modum/member/_revenue_detail.php:80
+#, php-format
+msgid "%s JPY"
+msgstr "%s 円"
+
+#: modum/member/do_ajax.php:466 modum/member/do_ajax.php:761
+#: modum/member/do_ajax.php:809 modum/member/do_ajax.php:1943
+#: modum/member/_default_backup.php:624 modum/member/_default_backup.php:643
+#: modum/member/_default_backup_2.php:519
+#: modum/member/_default_backup_2.php:538
+msgid "Details"
+msgstr "詳細"
+
+#: modum/member/do_ajax.php:578 modum/member/do_ajax.php:603
+#: modum/member/_default.php:402 modum/member/_default.php:424
+msgid "Detail"
+msgstr "詳細"
+
+#: modum/member/do_ajax.php:742 modum/member/do_ajax.php:792
+#: modum/member/do_ajax.php:1042 modum/member/do_ajax.php:1087
+#: modum/member/do_ajax.php:1650 modum/member/do_ajax.php:1730
+#: modum/member/do_ajax.php:1897 modum/member/do_ajax.php:2086
+#: modum/member/_orders_detail.php:128 modum/member/_orders_detail.php:129
+#: modum/member/_orders_detail.php:130
+msgid "Account deleted"
+msgstr "削除されました"
+
+#: modum/member/do_ajax.php:755 modum/member/do_ajax.php:803
+#: modum/member/do_ajax.php:1875 modum/member/do_ajax.php:1916
+#, php-format
+msgid "￥%s"
+msgstr "%s円"
+
+#: modum/member/do_ajax.php:915
+msgid " and status are wait for check"
+msgstr " 確認待ち(本日納品分)"
+
+#: modum/member/do_ajax.php:919 modum/member/_orders - Copy.php:127
+#: modum/member/_orders.php:179
+msgid " and priority is high"
+msgstr "お急ぎ対応"
+
+#: modum/member/do_ajax.php:923
+msgid " with all status"
+msgstr "全てタスクを見る"
+
+#: modum/member/do_ajax.php:931 modum/member/_orders - Copy.php:126
+#: modum/member/_orders.php:178 modum/member/_payment.php:137
+msgid " and status are pending"
+msgstr " 確認待ち(本日納品分)"
+
+#: modum/member/do_ajax.php:934 modum/member/do_ajax.php:959
+#, php-format
+msgid " and status are %s"
+msgstr " 確認待ち(本日納品分)%s"
+
+#: modum/member/do_ajax.php:979 modum/member/do_ajax.php:993
+#: modum/member/do_ajax.php:1289 modum/member/_booking_history.php:44
+#: modum/member/_booking_history.php:71 modum/member/_default_backup.php:583
+#: modum/member/_default_backup_2.php:478 modum/member/_orders - Copy.php:44
+#: Copy.php:95 modum/member/_orders.php:88 modum/member/_orders.php:134
+#: modum/member/_orders.php:147 modum/member/_orders_detail.php:538
+#: modum/member/_payment_detail.php:474 modum/member/_revenue_detail.php:65
+msgid "Order Date"
+msgstr "ご注文日"
+
+#: modum/member/do_ajax.php:980 modum/member/do_ajax.php:994
+#: modum/member/do_ajax.php:2041 modum/member/_customer_list.php:97
+#: modum/member/_orders - Copy.php:96 modum/member/_orders.php:135
+#: modum/member/_orders.php:148
+msgid "Customer Name"
+msgstr "顧客名"
+
+#: modum/member/do_ajax.php:981 modum/member/do_ajax.php:995
+#: modum/member/_orders_detail.php:517 modum/member/_payment_detail.php:453
+msgid "Order Number"
+msgstr "注文番号"
+
+#: modum/member/do_ajax.php:982 modum/member/do_ajax.php:996
+#: modum/member/_orders - Copy.php:98 modum/member/_orders.php:137
+#: modum/member/_orders.php:150
+msgid "Total Qty"
+msgstr "注文合計本数"
+
+#: modum/member/do_ajax.php:983 modum/member/do_ajax.php:2043
+#: modum/member/_orders - Copy.php:99 modum/member/_orders.php:138
+#: modum/member/_orders_detail.php:668 modum/member/_payment.php:102
+#: modum/member/_payment_detail.php:574
+msgid "Total Amount"
+msgstr "注文金額合計"
+
+#: modum/member/do_ajax.php:985 modum/member/do_ajax.php:998
+#: modum/member/do_ajax.php:2040 modum/member/_booking_history.php:76
+#: modum/member/_orders - Copy.php:63 Copy.php:100 modum/member/_orders.php:92
+#: modum/member/_orders.php:140 modum/member/_orders.php:152
+#: modum/member/_orders_detail.php:551 modum/member/_payment.php:66
+#: modum/member/_payment.php:99 modum/member/_payment_detail.php:486
+msgid "Shipping Date"
+msgstr "納品日"
+
+#: modum/member/do_ajax.php:986 modum/member/do_ajax.php:999
+#: modum/member/_orders - Copy.php:101 modum/member/_orders.php:141
+#: modum/member/_orders.php:153 modum/member/_orders_detail.php:523
+#: modum/member/_payment_detail.php:459
+msgid "Operating Status"
+msgstr "対応状況"
+
+#: modum/member/do_ajax.php:987 modum/member/do_ajax.php:1000
+#: modum/member/do_ajax.php:2044 modum/member/_edit_member.php:162
+#: modum/member/_list_member.php:89 modum/member/_member_create.php:187
+#: modum/member/_orders - Copy.php:102 modum/member/_orders.php:142
+#: modum/member/_orders.php:154 modum/member/_orders_detail.php:590
+#: modum/member/_payment.php:103 modum/member/_payment_detail.php:524
+msgid "Operator"
+msgstr "テクニシャン"
+
+#: modum/member/do_ajax.php:988 modum/member/do_ajax.php:2045
+#: modum/member/_orders - Copy.php:103 modum/member/_orders.php:143
+#: modum/member/_payment.php:39 modum/member/_payment.php:104
+msgid "Payment Status"
+msgstr "お支払い状況"
+
+#: modum/member/do_ajax.php:989 modum/member/do_ajax.php:1001
+#: modum/member/_orders - Copy.php:104 modum/member/_orders.php:144
+#: modum/member/_orders.php:155
+msgid "Last Update"
+msgstr "最終更新"
+
+#: modum/member/do_ajax.php:1006
+#, php-format
+msgid "Order list filter by order date from %s to %s %s"
+msgstr "%s から%s%sまでの注文一覧"
+
+#: modum/member/do_ajax.php:1010
+#, php-format
+msgid "Order list filter by shipping date from %s to %s %s"
+msgstr "%s から%s %sまでの納品一覧"
+
+#: modum/member/do_ajax.php:1216 modum/member/_customer_list.php:96
+#: modum/member/_detail_customer.php:112 modum/member/_orders_detail.php:498
+#: modum/member/_payment_detail.php:434
+msgid "Customer Number"
+msgstr "顧客番号"
+
+#: modum/member/do_ajax.php:1217 modum/member/_customer_create.php:100
+#: modum/member/_detail_customer.php:124 modum/member/_orders_detail.php:503
+#: modum/member/_payment_detail.php:439
+#: modum/member/_updateAccount_customer.php:195 _register.php:224
+#: _register_confirm.php:177
+msgid "Company Name"
+msgstr "会社名"
+
+#: modum/member/do_ajax.php:1218 modum/member/_customer_list.php:98
+#: modum/member/_orders_detail.php:508 modum/member/_payment_detail.php:444
+msgid "Contact Person"
+msgstr "ご連絡担当者名"
+
+#: modum/member/do_ajax.php:1219 modum/member/_customer_list.php:99
+#: modum/member/_detail_customer.php:214
+#: modum/member/_updateAccount_customer.php:286
+msgid "Telephone Number"
+msgstr "電話番号"
+
+#: modum/member/do_ajax.php:1220 modum/member/_customer_list.php:100
+#: modum/member/_detail_customer.php:204
+#: modum/member/_updateAccount_customer.php:279
+msgid "E-mail Address"
+msgstr "メールアドレス"
+
+#: modum/member/do_ajax.php:1225 modum/member/_customer_list.php:48
+#: modum/member/_detail_customer.php:23
+msgid "Customer List"
+msgstr "顧客一覧"
+
+#: modum/member/do_ajax.php:1290 modum/member/_booking_detail.php:83
+#: modum/member/_booking_history.php:72 modum/member/_default.php:353
+#: modum/member/_revenue_detail.php:66
+msgid "Order number"
+msgstr "ご注文番号"
+
+#: modum/member/do_ajax.php:1291 modum/member/_revenue_detail.php:67
+msgid "Number of patient"
+msgstr "患者数"
+
+#: modum/member/do_ajax.php:1292 modum/member/_revenue_detail.php:68
+msgid "Number of requests"
+msgstr "リクエスト数"
+
+#: modum/member/do_ajax.php:1293 modum/member/_revenue_detail.php:69
+msgid "Total Fee(VAT)"
+msgstr "合計金額(VATなし)"
+
+#: modum/member/do_ajax.php:1294 modum/member/_booking_history.php:77
+#: modum/member/_default.php:358 modum/member/_default_backup.php:586
+#: modum/member/_default_backup_2.php:481
+#: modum/member/_faq_category_list.php:32 modum/member/_faq_list.php:78
+#: modum/member/_orders.php:40 modum/member/_post_list.php:66
+#: modum/member/_revenue_detail.php:70
+msgid "Status"
+msgstr "対応状況"
+
+#: modum/member/do_ajax.php:1300
+#, php-format
+msgid "Revenue: %s"
+msgstr "売上: %s"
+
+#: modum/member/do_ajax.php:1541
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: modum/member/do_ajax.php:1547
+msgid "This year"
+msgstr "今年"
+
+#: modum/member/do_ajax.php:1547
+msgid "Last year"
+msgstr "昨年"
+
+#: modum/member/do_ajax.php:1547 modum/member/do_ajax.php:1588
+#: modum/member/do_ajax.php:1626 modum/member/_booking.php:253
+#: modum/member/_booking.php:695 modum/member/_default.php:18
+#: modum/member/_default_backup.php:13 modum/member/_default_backup_2.php:13
+#: modum/member/_detail_customer.php:267 modum/member/_orders_detail.php:673
+#: modum/member/_orders_detail.php:684 modum/member/_orders_detail.php:695
+#: modum/member/_orders_detail.php:721 modum/member/_payment_detail.php:579
+#: modum/member/_payment_detail.php:590 modum/member/_payment_detail.php:601
+#: modum/member/_payment_detail.php:627
+#: modum/member/_price_setting_system.php:64
+#: modum/member/_price_setting_system.php:80
+#: modum/member/_price_setting_system.php:141
+msgid "JPY"
+msgstr "円"
+
+#: modum/member/do_ajax.php:1578 modum/member/do_ajax.php:1619
+#, php-format
+msgid "%d/%s"
+msgstr "%d月%s日"
+
+#: modum/member/do_ajax.php:1617
+#, php-format
+msgid "%d/%d"
+msgstr "%d月%d日"
+
+#: modum/member/do_ajax.php:1677 modum/member/do_ajax.php:1679
+#: modum/member/do_ajax.php:1760 modum/member/do_ajax.php:1765
+msgid "quantity"
+msgstr "本数"
+
+#: modum/member/do_ajax.php:1762
+msgid "amount"
+msgstr "金額"
+
+#: modum/member/do_ajax.php:1931
+msgid "Partial payment (￥)"
+msgstr "一部入金"
+
+#: modum/member/do_ajax.php:1936 modum/member/_booking_detail.php:283
+#: modum/member/_customer_create.php:238 modum/member/_detail_customer.php:244
+#: modum/member/_detail_customer.php:283 modum/member/_edit_member.php:175
+#: modum/member/_price_setting.php:67
+#: modum/member/_price_setting_system.php:88
+#: modum/member/_price_setting_system.php:149
+#: modum/member/_price_setting_system.php:190
+#: modum/member/_price_setting_system.php:254
+#: modum/member/_price_setting_system.php:303
+msgid "Save"
+msgstr "保存"
+
+#: modum/member/do_ajax.php:1937 modum/member/_booking_detail.php:235
+#: modum/member/_booking_detail.php:282 modum/member/_booking_history.php:112
+#: modum/member/_customer_list.php:14 modum/member/_default.php:542
+#: modum/member/_edit_member.php:23 modum/member/_edit_member.php:172
+#: modum/member/_faq_category_list.php:15 modum/member/_faq_list.php:13
+#: modum/member/_list_member.php:13 modum/member/_orders - Copy.php:152
+#: modum/member/_orders.php:203 modum/member/_patient_list.php:13
+#: modum/member/_payment.php:173 modum/member/_post_list.php:14
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: modum/member/do_ajax.php:2011
+msgid " and payment status is "
+msgstr "お支払い状況を更新しました"
+
+#: modum/member/do_ajax.php:2015
+msgid "mark as paid"
+msgstr "ファイルダウンロードを許可する"
+
+#: modum/member/do_ajax.php:2019
+msgid "unpaid"
+msgstr "未入金"
+
+#: modum/member/do_ajax.php:2023
+msgid "partial payment"
+msgstr "一部入金"
+
+#: modum/member/do_ajax.php:2042 modum/member/_contact_confirm.php:57
+#: modum/member/_orders.php:136 modum/member/_orders.php:149
+#: modum/member/_payment.php:101
+msgid "Order ID"
+msgstr "ご注文番号"
+
+#: modum/member/do_ajax.php:2049
+#, php-format
+msgid "Payment list filter by order date from %s to %s %s"
+msgstr "%s から%s%sまでの注文一覧"
+
+#: modum/member/do_ajax.php:2053
+#, php-format
+msgid "Payment list filter by shipping date from %s to %s %s"
+msgstr "%s から%s %sまでの納品一覧"
+
+#: modum/member/_account_change_password.php:17 modum/member/_add_news.php:21
+#: modum/member/_booking.php:292 modum/member/_booking_complete.php:5
+#: modum/member/_booking_confirm.php:159 modum/member/_booking_detail.php:71
+#: modum/member/_booking_history.php:21 modum/member/_contact.php:66
+#: modum/member/_contact_complete.php:4 modum/member/_contact_confirm.php:111
+#: modum/member/_customer_create.php:25 modum/member/_customer_list.php:23
+#: modum/member/_default.php:31 modum/member/_default_backup.php:19
+#: modum/member/_default_backup_2.php:24 modum/member/_detail_customer.php:21
+#: modum/member/_detail_news.php:31 modum/member/_detail_patient.php:13
+#: modum/member/_edit_member.php:30 modum/member/_edit_post.php:19
+#: modum/member/_faq_category.php:19 modum/member/_faq_create.php:19
+#: modum/member/_faq_edit.php:19 modum/member/_faq_list.php:34
+#: modum/member/_list_member.php:22 modum/member/_member_create.php:21
+#: modum/member/_messages.php:39 modum/member/_message_detail.php:23
+#: modum/member/_no_authorize.php:4 modum/member/_operating_manual.php:5
+#: modum/member/_orders - Copy.php:21 modum/member/_orders.php:26
+#: modum/member/_orders_detail.php:465 modum/member/_patient_list.php:22
+#: modum/member/_patient_regis.php:20 modum/member/_payment.php:25
+#: modum/member/_payment_detail.php:402 modum/member/_post_list.php:23
+#: modum/member/_price_setting.php:18
+#: modum/member/_price_setting_system.php:18
+#: modum/member/_related_questions.php:29 modum/member/_revenue_detail.php:20
+#: modum/member/_revenue_list.php:19 modum/member/_support.php:4
+#: modum/member/_updateAccount.php:5
+#: modum/member/_updateAccount_customer.php:5 side-bar.php:10 side-bar.php:121
+msgid "Home"
+msgstr "トップ"
+
+#: modum/member/_account_change_password.php:18
+#: modum/member/_account_change_password.php:27 _header_member.php:413
+msgid "Change password"
+msgstr "パスワードの変更"
+
+#: modum/member/_account_change_password.php:42
+msgid "Change password successfull !!!"
+msgstr "パスワードを変更しました"
+
+#: modum/member/_account_change_password.php:48
+msgid "Old password is wrong"
+msgstr "古いパスワードは使用できません。新しいパスワードをご使用してください。"
+
+#: modum/member/_account_change_password.php:58
+msgid "Current password"
+msgstr "現在のパスワード"
+
+#: modum/member/_account_change_password.php:58
+#: modum/member/_account_change_password.php:65 modum/member/_booking.php:225
+#: modum/member/_booking.php:320 modum/member/_booking.php:370
+#: modum/member/_booking.php:418 modum/member/_customer_create.php:95
+#: modum/member/_customer_create.php:102 modum/member/_customer_create.php:118
+#: modum/member/_customer_create.php:125 modum/member/_customer_create.php:170
+#: modum/member/_edit_member.php:131 modum/member/_edit_member.php:138
+#: modum/member/_member_create.php:135 modum/member/_member_create.php:147
+#: modum/member/_member_create.php:159 modum/member/_patient_regis.php:55
+#: modum/member/_patient_regis.php:108 modum/member/_patient_regis.php:138
+#: modum/member/_updateAccount.php:149 modum/member/_updateAccount.php:186
+#: modum/member/_updateAccount.php:190
+#: modum/member/_updateAccount_customer.php:281
+#: modum/member/_updateAccount_customer.php:288 _register.php:216
+#: _register.php:226 _register.php:246 _register.php:254 _register.php:305
+#: _register.php:359
+msgid "Please fill out this field."
+msgstr "このフィールドを記入してください。"
+
+#: modum/member/_account_change_password.php:63
+#: modum/member/_edit_member.php:115 _change-pass.php:38
+msgid "New password"
+msgstr "新しいパスワード"
+
+#: modum/member/_account_change_password.php:69
+#: modum/member/_edit_member.php:122
+msgid "Retype new password"
+msgstr "新しいパスワード再入力"
+
+#: modum/member/_account_change_password.php:71
+#: modum/member/_account_change_password.php:96
+#: modum/member/_edit_member.php:124 modum/member/_edit_member.php:201
+msgid "Confirm password does not match"
+msgstr "新しいパスワードと一致していません"
+
+#: modum/member/_account_change_password.php:77
+#: modum/member/_orders_detail.php:979 modum/member/_updateAccount.php:205
+#: modum/member/_updateAccount_customer.php:314
+msgid "Save Changes"
+msgstr "更新内容を保存"
+
+#: modum/member/_add_news.php:22 modum/member/_detail_news.php:32
+#: modum/member/_edit_post.php:20 modum/member/_post_list.php:16
+#: modum/member/_post_list.php:24 modum/member/_post_list.php:32
+#: side-bar.php:68
+msgid "News"
+msgstr "記事管理"
+
+#: modum/member/_add_news.php:48 modum/member/_faq_create.php:45
+msgid "Post inserted!"
+msgstr "記事を追加しました"
+
+#: modum/member/_add_news.php:73 modum/member/_edit_post.php:73
+#: modum/member/_faq_category.php:109 modum/member/_faq_create.php:70
+#: modum/member/_faq_edit.php:74
+msgid "Enter title here"
+msgstr "タイトルはこちらに入力してください"
+
+#: modum/member/_add_news.php:92 modum/member/_add_news.php:104
+#: modum/member/_edit_post.php:91 modum/member/_faq_category.php:127
+#: modum/member/_faq_create.php:88 modum/member/_faq_create.php:100
+#: modum/member/_faq_edit.php:91 index.php:138
+msgid "Publish"
+msgstr "公開"
+
+#: modum/member/_add_news.php:95 modum/member/_edit_post.php:95
+msgid "Status News:"
+msgstr "公開状態"
+
+#: modum/member/_add_news.php:97 modum/member/_edit_post.php:97
+msgid "Publish News"
+msgstr "公開"
+
+#: modum/member/_add_news.php:98 modum/member/_edit_post.php:98
+msgid "Pending News"
+msgstr "非公開"
+
+#: modum/member/_add_news.php:101 modum/member/_edit_post.php:101
+#: modum/member/_faq_create.php:97 modum/member/_faq_edit.php:101
+msgid "Date post:"
+msgstr "公開日:"
+
+#: modum/member/_booking.php:20
+msgid "Please complete your previous order"
+msgstr ""
+"正しく入力されていない項目があります。メッセージをご確認の上、もう一度ご入力"
+"ください。"
+
+#: modum/member/_booking.php:63 modum/member/_booking.php:146
+#: modum/member/_member_create.php:114 modum/member/_patient_regis.php:92
+msgid "Opps, something went wrong!"
+msgstr ""
+"正しく入力されていない項目があります。メッセージをご確認の上、もう一度ご入力"
+"ください。"
+
+#: modum/member/_booking.php:65 modum/member/_orders_detail.php:191
+#: modum/member/_payment_detail.php:180
+msgid "File type is invalid"
+msgstr ""
+"ファイル形式が違うか、またはファイルサイズがオーバーしています。<br>ファイル"
+"形式はstlファイルかzipファイルにして送ってください。<br>ファイルのサイズ20MB"
+"以内で送ってください。"
+
+#: modum/member/_booking.php:80 modum/member/_orders_detail.php:208
+#: modum/member/_payment_detail.php:195
+msgid "Please chose a file"
+msgstr "ファイルを選択してください"
+
+#: modum/member/_booking.php:92 modum/member/_customer_create.php:110
+#: modum/member/_customer_create.php:127 modum/member/_patient_regis.php:50
+#: _register.php:238 _register.php:256
+msgid "Please enter alphabet only"
+msgstr "ローマ字で入力してください"
+
+#: modum/member/_booking.php:99
+msgid "Please pick a date"
+msgstr "納品日を選択してください"
+
+#: modum/member/_booking.php:105 modum/member/_booking.php:106
+#: modum/member/_booking.php:261
+msgid "The option you have just been selected is out of time"
+msgstr "受付時間が過ぎてしまいました。"
+
+#: modum/member/_booking.php:111 modum/member/_booking.php:112
+#: modum/member/_booking.php:260
+msgid "The option you have just been selected is out of serve today"
+msgstr "受付時間が過ぎてしまいました。"
+
+#: modum/member/_booking.php:117
+msgid "Please enter patient name"
+msgstr "患者様名を入力してください"
+
+#: modum/member/_booking.php:123
+msgid "Please enter patient age"
+msgstr "年齢を入力してください"
+
+#: modum/member/_booking.php:127
+msgid "Please check the position"
+msgstr "製作部位を選択してください"
+
+#: modum/member/_booking.php:134
+msgid "Please select customer name"
+msgstr "ユーザー名を入力してください"
+
+#: modum/member/_booking.php:151
+msgid "Invalid token"
+msgstr "無効操作"
+
+#: modum/member/_booking.php:163 modum/member/_booking.php:255
+#: modum/member/_booking.php:373 modum/member/_booking.php:825
+msgid "Choose patient"
+msgstr "患者様名を選択してください"
+
+#: modum/member/_booking.php:223 modum/member/_booking.php:363
+#: modum/member/_booking_confirm.php:187 modum/member/_booking_confirm.php:191
+#: modum/member/_detail_customer.php:302 modum/member/_detail_patient.php:54
+#: modum/member/_orders_detail.php:770 modum/member/_patient_list.php:97
+#: modum/member/_payment_detail.php:674
+msgid "Patient Name"
+msgstr "患者様名"
+
+#: modum/member/_booking.php:224 modum/member/_booking.php:393
+#: modum/member/_booking_confirm.php:199 modum/member/_customer_create.php:132
+#: modum/member/_detail_customer.php:161 modum/member/_detail_customer.php:304
+#: modum/member/_detail_patient.php:66 modum/member/_orders_detail.php:763
+#: modum/member/_patient_list.php:99 modum/member/_patient_regis.php:114
+#: modum/member/_payment_detail.php:667 modum/member/_updateAccount.php:166
+#: modum/member/_updateAccount_customer.php:240 _register.php:261
+#: _register_confirm.php:206
+msgid "Gender"
+msgstr "性別"
+
+#: modum/member/_booking.php:226
+msgid "Last name"
+msgstr "性"
+
+#: modum/member/_booking.php:227
+msgid "First name"
+msgstr "名"
+
+#: modum/member/_booking.php:228 modum/member/_booking.php:400
+#: modum/member/_customer_create.php:136 modum/member/_detail_customer.php:167
+#: modum/member/_patient_regis.php:121 modum/member/_updateAccount.php:173
+#: modum/member/_updateAccount_customer.php:247 index.php:136
+#: _register.php:268 _register_confirm.php:43
+msgid "Male"
+msgstr "男性"
+
+#: modum/member/_booking.php:229 modum/member/_booking.php:404
+#: modum/member/_customer_create.php:140 modum/member/_detail_customer.php:171
+#: modum/member/_patient_regis.php:125 modum/member/_updateAccount.php:176
+#: modum/member/_updateAccount_customer.php:250 index.php:136
+#: _register.php:272 _register_confirm.php:43
+msgid "Female"
+msgstr "女性"
+
+#: modum/member/_booking.php:230
+msgid "Common"
+msgstr ""
+"普通、もしくは期日指定　(日本時間15時までにご注文いただいたもので当日納品とな"
+"ります）"
+
+#: modum/member/_booking.php:231
+msgid "Expedited Shipping(until 19:00 jst)"
+msgstr ""
+"お急ぎ対応お急ぎ当日対応　(日本時間15時を過ぎた場合で、当日納品をご希望される"
+"場合。ご注文は日本時間18時までの3時間以内となります"
+
+#: modum/member/_booking.php:232 modum/member/_booking.php:411
+#: modum/member/_booking_confirm.php:206 modum/member/_detail_customer.php:303
+#: modum/member/_patient_list.php:98 modum/member/_patient_regis.php:132
+#: modum/member/_updateAccount.php:162
+#: modum/member/_updateAccount_customer.php:235
+msgid "Age"
+msgstr "年齢"
+
+#: modum/member/_booking.php:233 modum/member/_booking.php:785
+msgid "Choose file"
+msgstr "ファイルをアップロード"
+
+#: modum/member/_booking.php:234 modum/member/_booking.php:783
+#: modum/member/_orders_detail.php:902 modum/member/_payment_detail.php:797
+msgid "No file chosen"
+msgstr "選択されていません"
+
+#: modum/member/_booking.php:235 modum/member/_booking.php:703
+#: modum/member/_booking_confirm.php:426
+msgid "Desired delivery date"
+msgstr "ご希望納品日"
+
+#: modum/member/_booking.php:236 modum/member/_booking.php:424
+#: modum/member/_booking_confirm.php:214 modum/member/_booking_detail.php:150
+#: modum/member/_booking_detail.php:162 modum/member/_booking_detail.php:273
+#: modum/member/_default.php:355 modum/member/_default_backup.php:585
+#: modum/member/_default_backup_2.php:480
+msgid "Item"
+msgstr "製作物"
+
+#: modum/member/_booking.php:240 modum/member/_booking.php:464
+msgid "Please select an option."
+msgstr "オプションを選んでください"
+
+#: modum/member/_booking.php:241 modum/member/_orders_detail.php:656
+#: modum/member/_payment_detail.php:562
+msgid "Please select"
+msgstr "選択してください"
+
+#: modum/member/_booking.php:242 modum/member/_booking.php:465
+msgid "None"
+msgstr "選択なし"
+
+#: modum/member/_booking.php:243 modum/member/_booking.php:482
+msgid "Other"
+msgstr "その他"
+
+#: modum/member/_booking.php:244 modum/member/_booking.php:457
+#: modum/member/_booking_confirm.php:232 modum/member/_booking_detail.php:150
+#: modum/member/_booking_detail.php:162 modum/member/_booking_detail.php:273
+#: modum/member/_orders_detail.php:794 modum/member/_payment_detail.php:698
+msgid "VITA Shade"
+msgstr "VITAシェードガイド"
+
+#: modum/member/_booking.php:245 modum/member/_booking.php:490
+msgid "※ If you wish to multi, please note that in the remarks column below"
+msgstr ""
+"※「その他」、もしくは「マルチ」をご希望の場合は、下の備考欄にその旨をご記入く"
+"ださい"
+
+#: modum/member/_booking.php:247 modum/member/_booking.php:774
+#: modum/member/_booking_confirm.php:452
+msgid "Processing data attachment"
+msgstr "加工用データ添付"
+
+#: modum/member/_booking.php:248 modum/member/_booking.php:792
+msgid "※ File type .stl/.zip"
+msgstr ""
+"※ファイル形式 .stl / .zip<br>※3つのデータ（作業模型、対合歯、作業模型と対合歯"
+"を噛ませた模型）を　1ファイルにまとめて送ってください<br>ファイルサイズ　最大"
+"20MB"
+
+#: modum/member/_booking.php:249 modum/member/_booking.php:767
+#: modum/member/_booking_confirm.php:445 modum/member/_booking_detail.php:133
+msgid "Remarks"
+msgstr "備考欄"
+
+#: modum/member/_booking.php:250 modum/member/_booking.php:691
+#: modum/member/_booking_confirm.php:418 modum/member/_booking_confirm.php:498
+#: modum/member/_booking_detail.php:201
+#: modum/member/_price_setting_system.php:139
+msgid "Total"
+msgstr "ご注文金額合計"
+
+#: modum/member/_booking.php:251 modum/member/_booking.php:680
+#: modum/member/_booking_confirm.php:410 modum/member/_booking_detail.php:129
+#: modum/member/_default_backup.php:346 modum/member/_default_backup_2.php:207
+#: modum/member/_orders_detail.php:806 modum/member/_payment_detail.php:710
+msgid "Quantity"
+msgstr "本数"
+
+#: modum/member/_booking.php:252 modum/member/_booking.php:494
+#: modum/member/_booking_confirm.php:239 modum/member/_booking_detail.php:150
+#: modum/member/_booking_detail.php:162 modum/member/_booking_detail.php:273
+msgid "Position"
+msgstr "製作部位"
+
+#: modum/member/_booking.php:254 modum/member/_booking.php:880
+#: modum/member/_default.php:19 modum/member/_default_backup.php:521
+#: modum/member/_default_backup_2.php:382 modum/member/_orders_detail.php:710
+#: modum/member/_payment_detail.php:616
+msgid "teeth"
+msgstr "本"
+
+#: modum/member/_booking.php:256 modum/member/_booking.php:804
+#: modum/member/_booking.php:815
+msgid "Enter patient name"
+msgstr "患者様名をローマ字で入力してください"
+
+#: modum/member/_booking.php:257 modum/member/_booking.php:828
+msgid "No patient found"
+msgstr "患者様が見つかりません。"
+
+#: modum/member/_booking.php:258 modum/member/_booking.php:828
+#: modum/member/_faq_list.php:45 modum/member/_patient_list.php:50
+#: modum/member/_post_list.php:34
+msgid "Add new"
+msgstr "作成"
+
+#: modum/member/_booking.php:259 modum/member/_booking.php:323
+#: modum/member/_booking.php:838
+msgid "Choose customer"
+msgstr "お客様を選択してください"
+
+#: modum/member/_booking.php:262 modum/member/_booking_detail.php:236
+#: modum/member/_customer_list.php:11 modum/member/_edit_member.php:20
+#: modum/member/_faq_category_list.php:12 modum/member/_faq_list.php:10
+#: modum/member/_list_member.php:10 modum/member/_patient_list.php:10
+#: modum/member/_post_list.php:11
+msgid "Close"
+msgstr "閉じる"
+
+#: modum/member/_booking.php:293 modum/member/_booking.php:301
+#: modum/member/_booking_complete.php:7 modum/member/_booking_confirm.php:161
+msgid "Booking"
+msgstr "ご注文フォーム"
+
+#: modum/member/_booking.php:313
+msgid "Customer company"
+msgstr "会社名"
+
+#: modum/member/_booking.php:378
+#, php-format
+msgid "%s, %d"
+msgstr "%s, %d"
+
+#: modum/member/_booking.php:390
+msgid "Example: Taro Yamada"
+msgstr "例）Taro Yamada"
+
+#: modum/member/_booking.php:433
+msgid "Crown (single crown)"
+msgstr "クラウン(単冠)"
+
+#: modum/member/_booking.php:434
+msgid "Bridge"
+msgstr "ブリッジ"
+
+#: modum/member/_booking.php:435
+msgid "Clasp"
+msgstr "クラスプ"
+
+#: modum/member/_booking.php:436
+msgid "Denture Frame"
+msgstr "デンチャーフレーム"
+
+#: modum/member/_booking.php:466
+msgid "A1"
+msgstr ""
+
+#: modum/member/_booking.php:467
+msgid "A2"
+msgstr ""
+
+#: modum/member/_booking.php:468
+msgid "A3"
+msgstr ""
+
+#: modum/member/_booking.php:469
+msgid "A3.5"
+msgstr ""
+
+#: modum/member/_booking.php:470
+msgid "A4"
+msgstr ""
+
+#: modum/member/_booking.php:471
+msgid "B1"
+msgstr ""
+
+#: modum/member/_booking.php:472
+msgid "B2"
+msgstr ""
+
+#: modum/member/_booking.php:473
+msgid "B3"
+msgstr ""
+
+#: modum/member/_booking.php:474
+msgid "B4"
+msgstr ""
+
+#: modum/member/_booking.php:475
+msgid "C1"
+msgstr ""
+
+#: modum/member/_booking.php:476
+msgid "C2"
+msgstr ""
+
+#: modum/member/_booking.php:477
+msgid "C3"
+msgstr ""
+
+#: modum/member/_booking.php:478
+msgid "C4"
+msgstr ""
+
+#: modum/member/_booking.php:479
+msgid "D2"
+msgstr ""
+
+#: modum/member/_booking.php:480
+msgid "D3"
+msgstr ""
+
+#: modum/member/_booking.php:481
+msgid "D4"
+msgstr ""
+
+#: modum/member/_booking.php:684 modum/member/_booking_confirm.php:413
+#: modum/member/_booking_confirm.php:479 modum/member/_booking_detail.php:144
+#: modum/member/_booking_detail.php:185 index.php:133
+#, php-format
+msgid "%d teeths"
+msgstr "%d 本"
+
+#: modum/member/_booking.php:684 modum/member/_booking_confirm.php:413
+#: modum/member/_booking_confirm.php:479 modum/member/_booking_detail.php:144
+#: modum/member/_booking_detail.php:185
+#, php-format
+msgid "%d teeth"
+msgstr "%d 本"
+
+#: modum/member/_booking.php:725
+msgid "Same-Day Delivery"
+msgstr "普通　(日本時間15時までにご注文いただいたもので当日納品となります）"
+
+#: modum/member/_booking.php:730
+msgid "Urgent (until 19:00 jst)"
+msgstr ""
+"お急ぎ当日対応　(日本時間15時を過ぎた場合で、当日納品をご希望される場合。ご注"
+"文は日本時間18時までの3時間以内となります）"
+
+#: modum/member/_booking.php:739
+msgid "Scheduled Delivery"
+msgstr "期日指定(指定された期日に納品いたします)"
+
+#: modum/member/_booking.php:1015 modum/member/_booking_confirm.php:536
+msgid "Add more"
+msgstr "次の患者様を登録"
+
+#: modum/member/_booking.php:1016 modum/member/_contact.php:125
+#: _register_confirm.php:164
+msgid "Confirm"
+msgstr "確認画面"
+
+#: modum/member/_booking_complete.php:9 modum/member/_booking_complete.php:17
+msgid "Booking Complete"
+msgstr "注文完了"
+
+#: modum/member/_booking_complete.php:23
+#, php-format
+msgid "Thank you for order \"%d\" items."
+msgstr "この度は「%d」をお注文いただきまして誠にありがとうございます。"
+
+#: modum/member/_booking_complete.php:25
+#, php-format
+msgid "Thank you for order \"%d\" item."
+msgstr "この度は「%d」をお注文いただきまして誠にありがとうございます。"
+
+#: modum/member/_booking_complete.php:30
+msgid "Thank you for your order"
+msgstr "ご注文ありがとうございます"
+
+#: modum/member/_booking_complete.php:31
+msgid ""
+"We have sent the order confirmation email to your registered email address."
+msgstr "ご注文確認メールをお送りさせていただきました。"
+
+#: modum/member/_booking_complete.php:34 _register_complete.php:71
+msgid "Back to Home"
+msgstr "ホームページへ戻る"
+
+#: modum/member/_booking_confirm.php:163 modum/member/_booking_confirm.php:171
+msgid "Booking Confirm"
+msgstr "確認画面"
+
+#: modum/member/_booking_confirm.php:209 index.php:134
+#, php-format
+msgid "%d years old"
+msgstr "%d 歳"
+
+#: modum/member/_booking_confirm.php:209
+#, php-format
+msgid "%d year old"
+msgstr "%d 歳"
+
+#: modum/member/_booking_confirm.php:413
+#, php-format
+msgid "Amount per teeth ￥%s (tax included)"
+msgstr "1本あたりの金額 %s円(税込)"
+
+#: modum/member/_booking_confirm.php:421
+msgid "(tax included)"
+msgstr "(税込)"
+
+#: modum/member/_booking_confirm.php:477 modum/member/_booking_detail.php:183
+msgid "Total quantity"
+msgstr "合計本数"
+
+#: modum/member/_booking_confirm.php:484 modum/member/_booking_detail.php:189
+#: modum/member/_orders_detail.php:679 modum/member/_payment_detail.php:585
+msgid "Subtotal"
+msgstr "小計"
+
+#: modum/member/_booking_confirm.php:491 modum/member/_booking_detail.php:195
+#: modum/member/_price_setting_system.php:69
+msgid "VAT"
+msgstr "税"
+
+#: modum/member/_booking_confirm.php:533 _register_confirm.php:276
+msgid "Back to form"
+msgstr "内容を修正する"
+
+#: modum/member/_booking_confirm.php:539 modum/member/_booking_detail.php:242
+#: modum/member/_customer_list.php:13 modum/member/_edit_member.php:22
+#: modum/member/_faq_category_list.php:14 modum/member/_faq_list.php:12
+#: modum/member/_list_member.php:12 modum/member/_patient_list.php:12
+#: modum/member/_post_list.php:13 _change-pass.php:156
+msgid "Submit"
+msgstr "送信"
+
+#: modum/member/_booking_detail.php:73
+msgid "Booking list"
+msgstr "ご注文履歴"
+
+#: modum/member/_booking_detail.php:75
+msgid "Order detail"
+msgstr "注文詳細"
+
+#: modum/member/_booking_detail.php:85
+msgid "Re-order"
+msgstr "再製"
+
+#: modum/member/_booking_detail.php:87
+msgid "Print"
+msgstr "印刷"
+
+#: modum/member/_booking_detail.php:88
+#, php-format
+msgid "Order date: %s"
+msgstr "ご注文日: %s"
+
+#: modum/member/_booking_detail.php:97 modum/member/_customer_create.php:212
+#: modum/member/_detail_customer.php:238 modum/member/_orders_detail.php:657
+#: modum/member/_payment_detail.php:563
+#: modum/member/_updateAccount_customer.php:305 _register.php:349
+#: _register_confirm.php:44
+msgid "Credit Card"
+msgstr "クレジットカード"
+
+#: modum/member/_booking_detail.php:97 modum/member/_customer_create.php:204
+#: modum/member/_detail_customer.php:230 modum/member/_orders_detail.php:658
+#: modum/member/_payment_detail.php:564
+#: modum/member/_updateAccount_customer.php:297 _register.php:341
+#: _register_confirm.php:44
+msgid "Payment on invoice"
+msgstr "請求書払い"
+
+#: modum/member/_booking_detail.php:97 modum/member/_customer_create.php:208
+#: modum/member/_detail_customer.php:234 modum/member/_orders_detail.php:659
+#: modum/member/_payment_detail.php:565
+#: modum/member/_updateAccount_customer.php:301 _register.php:345
+#: _register_confirm.php:44
+msgid "Deposit"
+msgstr "デポジット"
+
+#: modum/member/_booking_detail.php:100
+msgid "Please wait..."
+msgstr "準備中"
+
+#: modum/member/_booking_detail.php:103
+msgid "Unselected"
+msgstr "未選択"
+
+#: modum/member/_booking_detail.php:108
+msgid "Order Status"
+msgstr "対応状況"
+
+#: modum/member/_booking_detail.php:112
+msgid "Order Payment"
+msgstr "お支払い状況"
+
+#: modum/member/_booking_detail.php:117 modum/member/_customer_create.php:200
+#: modum/member/_detail_customer.php:224
+#: modum/member/_updateAccount_customer.php:293 _register.php:337
+#: _register_confirm.php:250
+msgid "Payment Method"
+msgstr "お支払い方法"
+
+#: modum/member/_booking_detail.php:126 modum/member/_booking_history.php:73
+#: modum/member/_default.php:354 modum/member/_patient_regis.php:102
+msgid "Patient name"
+msgstr "患者様名"
+
+#: modum/member/_booking_detail.php:127 modum/member/_booking_history.php:74
+#: modum/member/_orders_detail.php:788 modum/member/_payment_detail.php:692
+msgid "Manufacturing"
+msgstr "製作物"
+
+#: modum/member/_booking_detail.php:128
+msgid "Price / Unit (Inc.Tax)"
+msgstr "価格（税込）"
+
+#: modum/member/_booking_detail.php:130
+msgid "Subtotal (Inc. Tax)"
+msgstr "合計金額"
+
+#: modum/member/_booking_detail.php:131 modum/member/_booking_history.php:75
+#: modum/member/_default.php:356
+msgid "Expedited Shipping"
+msgstr "お急ぎ対応"
+
+#: modum/member/_booking_detail.php:132 modum/member/_default.php:357
+msgid "Shipping date"
+msgstr "納品日"
+
+#: modum/member/_booking_detail.php:134
+msgid "Shippable data"
+msgstr "納品データ"
+
+#: modum/member/_booking_detail.php:142 modum/member/_orders_detail.php:850
+#: modum/member/_orders_detail.php:852 modum/member/_payment_detail.php:752
+#: modum/member/_payment_detail.php:753
+msgid "Download"
+msgstr "ダウンロード"
+
+#: modum/member/_booking_detail.php:142
+msgid "Exp: "
+msgstr "ダウンロード有効期限"
+
+#: modum/member/_booking_detail.php:217 modum/member/_contact.php:67
+#: modum/member/_contact.php:75 modum/member/_contact_complete.php:5
+#: modum/member/_contact_confirm.php:112 side-bar.php:138
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: modum/member/_booking_detail.php:219
+msgid "Go Back To The List"
+msgstr "一覧に戻る"
+
+#: modum/member/_booking_detail.php:233
+msgid "Enter password to download this file"
+msgstr "ファイルをダウンロードする時は、パスワードを入力してください"
+
+#: modum/member/_booking_detail.php:234 modum/member/_customer_list.php:15
+#: modum/member/_edit_member.php:24 modum/member/_faq_category_list.php:16
+#: modum/member/_faq_list.php:14 modum/member/_list_member.php:14
+#: modum/member/_patient_list.php:14 modum/member/_post_list.php:15
+msgid "Yes"
+msgstr "はい"
+
+#: modum/member/_booking_detail.php:237
+msgid "The password you entered was wrong!"
+msgstr "古いパスワードは使用できません。新しいパスワードを使用してください。"
+
+#: modum/member/_booking_detail.php:238
+msgid "Please enter valid password"
+msgstr "正しいパスワードを入力してください"
+
+#: modum/member/_booking_detail.php:239
+msgid "Enter password to unlock file"
+msgstr "ログインパスワードを入力してください"
+
+#: modum/member/_booking_detail.php:240 modum/member/_customer_create.php:220
+#: modum/member/_member_create.php:195 _active_register.php:61 _login.php:194
+#: _logon.php:186 _register.php:356 _register_confirm.php:78
+#: _register_confirm.php:79 _register_confirm.php:259
+msgid "Password"
+msgstr "パスワード"
+
+#: modum/member/_booking_detail.php:241
+msgid "Enter password here"
+msgstr "パスワードを入力してください"
+
+#: modum/member/_booking_detail.php:253
+msgid "Reorder"
+msgstr "再製"
+
+#: modum/member/_booking_detail.php:268
+#, php-format
+msgid "%d. Patient name: %s"
+msgstr "%d患者様名 %s"
+
+#: modum/member/_booking_detail.php:273 modum/member/_orders_detail.php:776
+#: modum/member/_payment_detail.php:680
+msgid "Comments"
+msgstr "コメント"
+
+#: modum/member/_booking_history.php:22
+msgid "Order list"
+msgstr "注文一覧"
+
+#: modum/member/_booking_history.php:33
+msgid "Search by Order number or  Patient name"
+msgstr "注文番号、患者名を検索する"
+
+#: modum/member/_booking_history.php:36
+msgid "Order number or  Patient name"
+msgstr "注文番号、患者名"
+
+#: modum/member/_booking_history.php:39 modum/member/_booking_history.php:58
+#: modum/member/_customer_list.php:41 modum/member/_orders - Copy.php:39
+#: Copy.php:58 Copy.php:77 modum/member/_orders.php:113
+#: modum/member/_patient_list.php:41 modum/member/_payment.php:82
+#: modum/member/_revenue_list.php:54
+msgid "Search"
+msgstr "検索"
+
+#: modum/member/_booking_history.php:65
+msgid "Order history"
+msgstr "ご注文履歴"
+
+#: modum/member/_booking_history.php:101 modum/member/_default.php:531
+#: modum/member/_orders - Copy.php:141 modum/member/_orders.php:192
+#: modum/member/_payment.php:162
+msgid "Today"
+msgstr "今日"
+
+#: modum/member/_booking_history.php:102 modum/member/_default.php:532
+#: modum/member/_orders - Copy.php:142 modum/member/_orders.php:193
+#: modum/member/_payment.php:163
+msgid "Yesterday"
+msgstr "昨日"
+
+#: modum/member/_booking_history.php:103 modum/member/_default.php:533
+#: modum/member/_orders - Copy.php:143 modum/member/_orders.php:194
+#: modum/member/_payment.php:164
+msgid "Last 7 Days"
+msgstr "7日間"
+
+#: modum/member/_booking_history.php:104 modum/member/_default.php:534
+#: modum/member/_orders - Copy.php:144 modum/member/_orders.php:195
+#: modum/member/_payment.php:165
+msgid "Last 30 Days"
+msgstr "30日後"
+
+#: modum/member/_booking_history.php:105 modum/member/_default.php:535
+#: modum/member/_orders - Copy.php:145 modum/member/_orders.php:196
+#: modum/member/_payment.php:166
+msgid "This Month"
+msgstr "今月"
+
+#: modum/member/_booking_history.php:106 modum/member/_default.php:536
+#: modum/member/_orders - Copy.php:146 modum/member/_orders.php:197
+#: modum/member/_payment.php:167
+msgid "Last Month"
+msgstr "先月"
+
+#: modum/member/_booking_history.php:111 modum/member/_default.php:541
+#: modum/member/_orders - Copy.php:151 modum/member/_orders.php:202
+#: modum/member/_payment.php:172
+msgid "Apply"
+msgstr "追加"
+
+#: modum/member/_booking_history.php:113 modum/member/_default.php:543
+#: modum/member/_orders - Copy.php:153 modum/member/_orders.php:204
+#: modum/member/_payment.php:174
+msgid "From"
+msgstr "から"
+
+#: modum/member/_booking_history.php:114 modum/member/_default.php:544
+#: modum/member/_orders - Copy.php:154 modum/member/_orders.php:205
+#: modum/member/_payment.php:175
+msgid "To"
+msgstr "To"
+
+#: modum/member/_booking_history.php:115 modum/member/_default.php:545
+#: modum/member/_orders - Copy.php:155 modum/member/_orders.php:206
+#: modum/member/_payment.php:176
+msgid "Custom Range"
+msgstr "顧客範囲"
+
+#: modum/member/_booking_history.php:117 modum/member/_default.php:547
+#: modum/member/_orders - Copy.php:157 modum/member/_orders.php:208
+#: modum/member/_payment.php:178
+msgid "Su"
+msgstr "日"
+
+#: modum/member/_booking_history.php:118 modum/member/_default.php:548
+#: modum/member/_orders - Copy.php:158 modum/member/_orders.php:209
+#: modum/member/_payment.php:179
+msgid "Mo"
+msgstr "月"
+
+#: modum/member/_booking_history.php:119 modum/member/_default.php:549
+#: modum/member/_orders - Copy.php:159 modum/member/_orders.php:210
+#: modum/member/_payment.php:180
+msgid "Tu"
+msgstr "火"
+
+#: modum/member/_booking_history.php:120 modum/member/_default.php:550
+#: modum/member/_orders - Copy.php:160 modum/member/_orders.php:211
+#: modum/member/_payment.php:181
+msgid "We"
+msgstr "水"
+
+#: modum/member/_booking_history.php:121 modum/member/_default.php:551
+#: modum/member/_orders - Copy.php:161 modum/member/_orders.php:212
+#: modum/member/_payment.php:182
+msgid "Th"
+msgstr "木"
+
+#: modum/member/_booking_history.php:122 modum/member/_default.php:552
+#: modum/member/_orders - Copy.php:162 modum/member/_orders.php:213
+#: modum/member/_payment.php:183
+msgid "Fr"
+msgstr "金"
+
+#: modum/member/_booking_history.php:123 modum/member/_default.php:553
+#: modum/member/_orders - Copy.php:163 modum/member/_orders.php:214
+#: modum/member/_payment.php:184
+msgid "Sa"
+msgstr "土"
+
+#: modum/member/_booking_history.php:126 modum/member/_default.php:556
+#: modum/member/_orders - Copy.php:166 modum/member/_orders.php:217
+#: modum/member/_payment.php:187
+msgid "January"
+msgstr "1月"
+
+#: modum/member/_booking_history.php:127 modum/member/_default.php:557
+#: modum/member/_orders - Copy.php:167 modum/member/_orders.php:218
+#: modum/member/_payment.php:188
+msgid "February"
+msgstr "2月"
+
+#: modum/member/_booking_history.php:128 modum/member/_default.php:558
+#: modum/member/_orders - Copy.php:168 modum/member/_orders.php:219
+#: modum/member/_payment.php:189
+msgid "March"
+msgstr "3月"
+
+#: modum/member/_booking_history.php:129 modum/member/_default.php:559
+#: modum/member/_orders - Copy.php:169 modum/member/_orders.php:220
+#: modum/member/_payment.php:190
+msgid "April"
+msgstr "4月"
+
+#: modum/member/_booking_history.php:130 modum/member/_default.php:560
+#: modum/member/_orders - Copy.php:170 modum/member/_orders.php:221
+#: modum/member/_payment.php:191 class/class.utilities.php:476
+msgid "May"
+msgstr "5月"
+
+#: modum/member/_booking_history.php:131 modum/member/_default.php:561
+#: modum/member/_orders - Copy.php:171 modum/member/_orders.php:222
+#: modum/member/_payment.php:192
+msgid "June"
+msgstr "6月"
+
+#: modum/member/_booking_history.php:132 modum/member/_default.php:562
+#: modum/member/_orders - Copy.php:172 modum/member/_orders.php:223
+#: modum/member/_payment.php:193
+msgid "July"
+msgstr "7月"
+
+#: modum/member/_booking_history.php:133 modum/member/_default.php:563
+#: modum/member/_orders - Copy.php:173 modum/member/_orders.php:224
+#: modum/member/_payment.php:194
+msgid "August"
+msgstr "8月"
+
+#: modum/member/_booking_history.php:134 modum/member/_default.php:564
+#: modum/member/_orders - Copy.php:174 modum/member/_orders.php:225
+#: modum/member/_payment.php:195
+msgid "September"
+msgstr "9月"
+
+#: modum/member/_booking_history.php:135 modum/member/_default.php:565
+#: modum/member/_orders - Copy.php:175 modum/member/_orders.php:226
+#: modum/member/_payment.php:196
+msgid "October"
+msgstr "10月"
+
+#: modum/member/_booking_history.php:136 modum/member/_default.php:566
+#: modum/member/_orders - Copy.php:176 modum/member/_orders.php:227
+#: modum/member/_payment.php:197
+msgid "November"
+msgstr "11月"
+
+#: modum/member/_booking_history.php:137 modum/member/_default.php:567
+#: modum/member/_orders - Copy.php:177 modum/member/_orders.php:228
+#: modum/member/_payment.php:198
+msgid "December"
+msgstr "12月"
+
+#: modum/member/_contact.php:11 modum/member/_contact.php:51
+msgid "Opps. Something wrong"
+msgstr "必須項目を全て入力してください"
+
+#: modum/member/_contact.php:28
+msgid "Message field"
+msgstr "メッセージフィールド"
+
+#: modum/member/_contact.php:33
+msgid "Email is invalid"
+msgstr "メールアドレスが無効です。"
+
+#: modum/member/_contact.php:84 modum/member/_contact_confirm.php:125
+#: modum/member/_edit_member.php:101 modum/member/_member_create.php:121
+#: modum/member/_updateAccount.php:144
+#: modum/member/_updateAccount_customer.php:187 _active_register.php:66
+#: _register_confirm.php:77
+msgid "User ID"
+msgstr "会員番号"
+
+#: modum/member/_contact.php:94 modum/member/_contact_confirm.php:133
+msgid "Company name"
+msgstr "会社名"
+
+#: modum/member/_contact.php:102 modum/member/_contact_confirm.php:140
+#: _register.php:244
+msgid "Contact person"
+msgstr "ご連絡担当者名"
+
+#: modum/member/_contact.php:110 modum/member/_contact_confirm.php:56
+#: modum/member/_contact_confirm.php:147 modum/member/_message_detail.php:27
+msgid "Message"
+msgstr "メッセージ"
+
+#: modum/member/_contact_complete.php:13
+msgid "Contact Complete"
+msgstr "送信完了"
+
+#: modum/member/_contact_complete.php:17
+msgid ""
+"<h1>Thank you for your inquiry.</h1>Depending on the content, it may take "
+"time to give an answer.<br>In addition, please note that holidays will be "
+"available after the next business day."
+msgstr ""
+"<h1>お問い合わせありがとうございます</h1>内容を確認いたしまして担当よりご連絡"
+"いたします。<br>※お問い合わせ内容によりましては、ご回答に時間がかかる場合があ"
+"ります。"
+
+#: modum/member/_contact_confirm.php:26 _register_confirm.php:84
+#, php-format
+msgid "Mrs/Mr %s"
+msgstr "%s 様"
+
+#: modum/member/_contact_confirm.php:51
+msgid "Thank you for your inquiry"
+msgstr "お問い合わせありがとうございます"
+
+#: modum/member/_contact_confirm.php:52
+msgid "Customer ID"
+msgstr "会員番号"
+
+#: modum/member/_contact_confirm.php:53 modum/member/_customer_create.php:93
+#: modum/member/_edit_member.php:108 modum/member/_member_create.php:128
+#: modum/member/_updateAccount.php:148 _active_register.php:64
+#: _change-pass.php:37 _forget-pass.php:40 _login.php:186 _logon.php:178
+#: _register.php:214 _register_confirm.php:75 _register_confirm.php:170
+msgid "Username"
+msgstr "ユーザー名"
+
+#: modum/member/_contact_confirm.php:54 _register_confirm.php:76
+msgid "Company"
+msgstr "会社名"
+
+#: modum/member/_contact_confirm.php:55
+msgid "Contact name"
+msgstr "ご連絡担当者名"
+
+#: modum/member/_contact_confirm.php:59
+msgid "We received the following content"
+msgstr "下記内容を承りました。"
+
+#: modum/member/_contact_confirm.php:60
+msgid ""
+"We will confirm the contents and contact you. <br>※ Depending on the content "
+"of the inquiry, it may take some time to answer."
+msgstr ""
+"内容を確認いたしまして担当よりご連絡いたします。<br>※お問い合わせ内容によりま"
+"しては、ご回答に時間がかかる場合があります。<br>"
+
+#: modum/member/_contact_confirm.php:120
+msgid "Contact confirm"
+msgstr "お問い合わせ - 確認画面"
+
+#: modum/member/_contact_confirm.php:157
+msgid "Go Back"
+msgstr "戻る"
+
+#: modum/member/_contact_confirm.php:159 _forget-pass.php:150
+#: _register.php:387
+msgid "Send"
+msgstr "送信"
+
+#: modum/member/_customer_create.php:26 modum/member/_customer_create.php:34
+msgid "Add New Customer"
+msgstr "新規顧客登録"
+
+#: modum/member/_customer_create.php:59
+msgid "New customer created successfully !!!"
+msgstr "新しい顧客を登録できました"
+
+#: modum/member/_customer_create.php:67 modum/member/_member_create.php:96
+#: modum/member/_patient_regis.php:85 _register.php:218
+msgid "Create member error !!! Account is duplicate"
+msgstr ""
+"入力されたメールアドレスは既に登録されているためご使用になれません。別のメー"
+"ルアドレスを入力してください。"
+
+#: modum/member/_customer_create.php:72 modum/member/_member_create.php:102
+#: _register.php:306
+msgid "Email is already exits. Please try again"
+msgstr "メールアドレスが既に他で存在しています。もう一度やり直してください。"
+
+#: modum/member/_customer_create.php:76 modum/member/_member_create.php:107
+#: _register.php:217
+msgid "Username is already exits. Please try again"
+msgstr "ユーザー名が既に存在しています。もう一度やり直してください。"
+
+#: modum/member/_customer_create.php:85
+msgid "Member code"
+msgstr "会員番号"
+
+#: modum/member/_customer_create.php:107 modum/member/_detail_customer.php:133
+#: modum/member/_updateAccount_customer.php:202 _register_confirm.php:185
+msgid "Company Name <br/> (Alphabet)"
+msgstr "会社名 <br/> (ローマ字)"
+
+#: modum/member/_customer_create.php:116 modum/member/_detail_customer.php:143
+#: modum/member/_updateAccount_customer.php:209 _register_confirm.php:192
+msgid "Responsibility Person"
+msgstr "ご連絡担当者名"
+
+#: modum/member/_customer_create.php:123 modum/member/_detail_customer.php:152
+#: modum/member/_updateAccount_customer.php:215 _register_confirm.php:199
+msgid "Responsibility Person <br/> (Alphabet)"
+msgstr "ご連絡担当者名<br/>（ローマ字）"
+
+#: modum/member/_customer_create.php:126 _register.php:247 _register.php:255
+msgid "Please enter responsibility person"
+msgstr "ご連絡担当者名を入力してください"
+
+#: modum/member/_customer_create.php:147 modum/member/_detail_customer.php:180
+#: modum/member/_updateAccount.php:196
+#: modum/member/_updateAccount_customer.php:258 _register.php:279
+#: _register_confirm.php:214
+msgid "Address"
+msgstr "住所"
+
+#: modum/member/_customer_create.php:151 modum/member/_detail_customer.php:186
+#: modum/member/_updateAccount_customer.php:261
+msgid "Postal code"
+msgstr "郵便番号"
+
+#: modum/member/_customer_create.php:154 modum/member/_detail_customer.php:189
+#: modum/member/_updateAccount_customer.php:264 _register.php:286
+msgid "Prefectures"
+msgstr "都道府県"
+
+#: modum/member/_customer_create.php:157 modum/member/_detail_customer.php:192
+#: modum/member/_updateAccount_customer.php:267 _register.php:289
+msgid "City"
+msgstr "市区町村"
+
+#: modum/member/_customer_create.php:160 modum/member/_detail_customer.php:195
+#: modum/member/_updateAccount_customer.php:270 _register.php:292
+msgid "Street, building, apartment, apartment name"
+msgstr "番地・ビル・アパート・マンション名"
+
+#: modum/member/_customer_create.php:168 modum/member/_edit_member.php:136
+#: modum/member/_member_create.php:153 modum/member/_support.php:16
+#: modum/member/_updateAccount.php:185 _active_register.php:62
+#: _register.php:303 _register_confirm.php:81 _register_confirm.php:234
+msgid "Email"
+msgstr "メールアドレス"
+
+#: modum/member/_customer_create.php:177 _register.php:313
+#: _register_confirm.php:242
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: modum/member/_customer_create.php:193 _register.php:331
+msgid "Please enter phone number"
+msgstr "電話番号を入力してください"
+
+#: modum/member/_customer_create.php:229 modum/member/_member_create.php:210
+#: _register.php:366
+msgid "Refresh"
+msgstr "更新"
+
+#: modum/member/_customer_create.php:236
+msgid "Reset"
+msgstr "リセット"
+
+#: modum/member/_customer_list.php:10 modum/member/_customer_list.php:66
+#: modum/member/_edit_member.php:19 modum/member/_list_member.php:9
+#: modum/member/_list_member.php:47 modum/member/_patient_list.php:66
+msgid "Delete member successfull !!!"
+msgstr "会員を削除しました"
+
+#: modum/member/_customer_list.php:12 modum/member/_edit_member.php:21
+#: modum/member/_faq_category_list.php:13 modum/member/_faq_list.php:11
+#: modum/member/_list_member.php:11 modum/member/_patient_list.php:11
+#: modum/member/_post_list.php:12
+msgid "Are you really want to delete?"
+msgstr "本当に削除してもよろしいでしょうか?"
+
+#: modum/member/_customer_list.php:16 modum/member/_edit_member.php:45
+#: modum/member/_list_member.php:15
+msgid "Delete User"
+msgstr "ユーザー削除"
+
+#: modum/member/_customer_list.php:24
+msgid "Search customer"
+msgstr "顧客一覧"
+
+#: modum/member/_customer_list.php:33
+msgid "Search Form customer"
+msgstr "顧客検索"
+
+#: modum/member/_customer_list.php:38
+msgid ""
+"Search by Customer number, Customer Name, Contact person, Email address, "
+"Telephone number."
+msgstr "顧客番号、顧客名、ご連絡担当者、電話番号、メールアドレス"
+
+#: modum/member/_customer_list.php:75 modum/member/_list_member.php:56
+#: modum/member/_patient_list.php:75
+msgid "Delete member wrong !!!"
+msgstr "間違ったメンバーを削除してください"
+
+#: modum/member/_customer_list.php:85 modum/member/_list_member.php:66
+#: modum/member/_patient_list.php:85
+msgid "You can not delete this member !!!"
+msgstr "会員を削除する権限がありません。"
+
+#: modum/member/_customer_list.php:101 modum/member/_detail_customer.php:255
+msgid "Show price?"
+msgstr "金額表示"
+
+#: modum/member/_customer_list.php:173 modum/member/_detail_customer.php:353
+#: modum/member/_patient_list.php:157 modum/member/_revenue_detail.php:109
+msgid ""
+"Search by Customer number, Company name, Contact person, Email address, "
+"Telephone number."
+msgstr "顧客番号、会社名、ご連絡担当者、電話番号、メールアドレス"
+
+#: modum/member/_data_logs.php:33 modum/member/_no_authorize.php:15
+msgid "You are not authorized to access this page"
+msgstr "このページにアクセスする権限がありません。"
+
+#: modum/member/_data_logs.php:73
+msgid "History Update"
+msgstr "更新履歴"
+
+#: modum/member/_data_logs.php:79 modum/member/_faq_category_list.php:30
+#: modum/member/_faq_list.php:74 modum/member/_post_list.php:63
+msgid "No."
+msgstr "No."
+
+#: modum/member/_data_logs.php:80 modum/member/_faq_list.php:75
+#: modum/member/_post_list.php:64
+msgid "Date"
+msgstr "日付"
+
+#: modum/member/_data_logs.php:81
+msgid "Log"
+msgstr "ログ"
+
+#: modum/member/_default.php:110 modum/member/_default.php:287
+msgid "Total Order Today"
+msgstr "本日納品数"
+
+#: modum/member/_default.php:120 modum/member/_default.php:297
+#: modum/member/_default_backup_2.php:86
+msgid "Today delivered"
+msgstr "本日納品済"
+
+#: modum/member/_default.php:130 modum/member/_default.php:307
+msgid "Today Priority"
+msgstr "お急ぎ(未対応数）　"
+
+#: modum/member/_default.php:140 modum/member/_default.php:318
+#: modum/member/_default_backup_2.php:95
+msgid "Pending verification"
+msgstr "確認待ち(本日納品分)"
+
+#: modum/member/_default.php:148 modum/member/_default_backup.php:66
+#: modum/member/_default_backup_2.php:103
+msgid "Revenue chart"
+msgstr "売上状況"
+
+#: modum/member/_default.php:154 modum/member/_default.php:160
+#: modum/member/_default.php:167 modum/member/_default_backup_2.php:109
+#: modum/member/_default_backup_2.php:115
+#: modum/member/_default_backup_2.php:121
+#, php-format
+msgid "￥%s / %d order"
+msgstr "￥%s / %d 件"
+
+#: modum/member/_default.php:156
+msgid "Sales amount of this year / number of sales"
+msgstr "今年の売上金額 / 売上件数"
+
+#: modum/member/_default.php:162 modum/member/_default_backup_2.php:111
+msgid "Sales amount of this month / number of sales"
+msgstr "今月の売上金額 / 売上件数"
+
+#: modum/member/_default.php:169 modum/member/_default_backup_2.php:117
+msgid "Today&#39;s sales amount / number of sales"
+msgstr "今日 の売上金額/ 売上件数"
+
+#: modum/member/_default.php:174 modum/member/_default_backup.php:72
+#: modum/member/_default_backup_2.php:130
+msgid "12 months chart"
+msgstr "年間"
+
+#: modum/member/_default.php:175 modum/member/_default_backup.php:71
+#: modum/member/_default_backup_2.php:129
+msgid "30 days chart"
+msgstr "月間"
+
+#: modum/member/_default.php:176 modum/member/_default_backup.php:70
+#: modum/member/_default_backup_2.php:128
+msgid "7 days chart"
+msgstr "週間"
+
+#: modum/member/_default.php:199 modum/member/_default.php:329
+#: modum/member/_default_backup_2.php:170
+msgid "Operator bar chart"
+msgstr "テクニシャン処理件数（月別）"
+
+#: modum/member/_default.php:214 modum/member/_default_backup_2.php:182
+msgid "Customer bar chart"
+msgstr "顧客売上トップ10（月別）"
+
+#: modum/member/_default.php:223
+msgid "Quantity chart"
+msgstr "本数"
+
+#: modum/member/_default.php:224
+msgid "Amount chart"
+msgstr "売上"
+
+#: modum/member/_default.php:346
+msgid "Recent your orders"
+msgstr "最近のご注文"
+
+#: modum/member/_default.php:352
+msgid "Order date"
+msgstr "ご注文日"
+
+#: modum/member/_default.php:444 modum/member/_default_backup.php:663
+#: modum/member/_default_backup_2.php:558
+msgid "VietQuocLab News"
+msgstr "VietQuocLab 記事"
+
+#: modum/member/_default_backup.php:40
+msgid "Patients and Quantity in last 12 months"
+msgstr "患者様と12ヶ月の数量"
+
+#: modum/member/_default_backup.php:89
+msgid "Operator last 6 months line chart"
+msgstr "【オペレーター】最近6ヶ月のデータ"
+
+#: modum/member/_default_backup.php:160
+msgid "Customer last 6 months line chart"
+msgstr "【顧客】最近6ヶ月のデータ"
+
+#: modum/member/_default_backup.php:238 modum/member/_default_backup.php:532
+#: modum/member/_default_backup_2.php:393
+msgid "Revenue previous month"
+msgstr "先月の売上"
+
+#: modum/member/_default_backup.php:250 modum/member/_default_backup.php:271
+#: modum/member/_default_backup.php:545 modum/member/_default_backup.php:565
+#: modum/member/_default_backup_2.php:406
+#: modum/member/_default_backup_2.php:427
+msgid "No data"
+msgstr "データがありません"
+
+#: modum/member/_default_backup.php:258 modum/member/_default_backup.php:553
+#: modum/member/_default_backup_2.php:414
+msgid "Revenue this month"
+msgstr "今月の売上"
+
+#: modum/member/_default_backup.php:342 modum/member/_default_backup.php:509
+#: modum/member/_default_backup_2.php:203
+#: modum/member/_default_backup_2.php:370
+msgid "Number of Patient"
+msgstr "患者数"
+
+#: modum/member/_default_backup.php:473 modum/member/_default_backup_2.php:334
+msgid "Assigned"
+msgstr "製作中"
+
+#: modum/member/_default_backup.php:485 modum/member/_default_backup_2.php:346
+msgid "Order per day"
+msgstr "本日の注文数"
+
+#: modum/member/_default_backup.php:497 modum/member/_default_backup.php:748
+#: modum/member/_default_backup.php:764 modum/member/_default_backup_2.php:358
+#: modum/member/_default_backup_2.php:439
+#: modum/member/_default_backup_2.php:455 side-bar.php:134
+msgid "Revenue"
+msgstr "売上"
+
+#: modum/member/_default_backup.php:521 modum/member/_default_backup_2.php:382
+#: modum/member/_orders_detail.php:710 modum/member/_payment_detail.php:616
+msgid "teeths"
+msgstr "本"
+
+#: modum/member/_default_backup.php:577 modum/member/_default_backup_2.php:472
+msgid "Recent Your Orders"
+msgstr "最近のご注文"
+
+#: modum/member/_default_backup.php:584 modum/member/_default_backup_2.php:479
+msgid "Order #"
+msgstr "注文番号"
+
+#: modum/member/_default_backup.php:584 modum/member/_default_backup_2.php:479
+msgid "Patients"
+msgstr "患者様名"
+
+#: modum/member/_default_backup.php:613 modum/member/_default_backup_2.php:508
+msgid "<span class=\"badge badge-danger\">Pending</span>"
+msgstr "<span class=\"badge badge-danger\">製作待ち</span>"
+
+#: modum/member/_default_backup.php:613 modum/member/_default_backup_2.php:508
+msgid "<span class=\"badge badge-warning text-white\">Assigning</span>"
+msgstr "<span class=\"badge badge-warning text-white\">製作中</span>"
+
+#: modum/member/_default_backup.php:613 modum/member/_default_backup_2.php:508
+msgid "<span class=\"badge badge-primary\">Processing</span>"
+msgstr "<span class=\"badge badge-primary\">製作中</span>"
+
+#: modum/member/_default_backup.php:613 modum/member/_default_backup_2.php:508
+msgid "<span class=\"badge badge-info text-white\">Completed</span>"
+msgstr "<span class=\"badge  badge-info text-white\">完成</span>"
+
+#: modum/member/_default_backup.php:613 modum/member/_default_backup_2.php:508
+msgid "<span class=\"badge badge-success\">Delivered</span>"
+msgstr "<span class=\"badge badge-success\">納品済 </span>"
+
+#: modum/member/_default_backup.php:748 modum/member/_default_backup.php:764
+#: modum/member/_default_backup_2.php:439
+#: modum/member/_default_backup_2.php:455
+msgid "Received"
+msgstr "受取"
+
+#: modum/member/_default_backup_2.php:123
+msgid "Yesterday&#39;s sales amount / number of sales"
+msgstr "昨日の売上金額 / 売上件数"
+
+#: modum/member/_detail_customer.php:25 modum/member/_detail_customer.php:105
+msgid "Customer Detail"
+msgstr "顧客詳細"
+
+#: modum/member/_detail_customer.php:53
+msgid "Setting saved!"
+msgstr "顧客情報を変更しました"
+
+#: modum/member/_detail_customer.php:57
+msgid "Setting failed!"
+msgstr "設定できません"
+
+#: modum/member/_detail_customer.php:251 _header_member.php:403
+#: _header_member.php:406
+msgid "Settings"
+msgstr "設定"
+
+#: modum/member/_detail_customer.php:263
+#: modum/member/_price_setting_system.php:27
+msgid "Price Setting"
+msgstr "価格設定"
+
+#: modum/member/_detail_customer.php:273
+#: modum/member/_price_setting_system.php:95
+msgid "Urgent Price Setting"
+msgstr "お急ぎ対応価格設定"
+
+#: modum/member/_detail_customer.php:277
+#: modum/member/_price_setting_system.php:132
+msgid "%"
+msgstr ""
+
+#: modum/member/_detail_customer.php:293 modum/member/_patient_list.php:23
+#: modum/member/_patient_list.php:48 side-bar.php:130
+msgid "Patient List"
+msgstr "患者一覧"
+
+#: modum/member/_detail_customer.php:301 modum/member/_patient_list.php:96
+msgid "Patient Code"
+msgstr "患者番号"
+
+#: modum/member/_detail_news.php:55
+msgid "Related News"
+msgstr "他のニュース"
+
+#: modum/member/_detail_patient.php:15
+msgid "Patient"
+msgstr "患者名"
+
+#: modum/member/_detail_patient.php:17 modum/member/_detail_patient.php:25
+msgid "Patient Detail"
+msgstr "患者詳細"
+
+#: modum/member/_detail_patient.php:43
+msgid "Patient Number"
+msgstr "患者番号"
+
+#: modum/member/_edit_member.php:32
+msgid "User Management"
+msgstr "ユーザー管理"
+
+#: modum/member/_edit_member.php:34 modum/member/_edit_member.php:43
+msgid "Edit User"
+msgstr "ユーザー編集"
+
+#: modum/member/_edit_member.php:87
+msgid "Edit member successfull !!!"
+msgstr "ユーザーの内容を変更しました"
+
+#: modum/member/_edit_member.php:91
+msgid "Edit member wrong !!!"
+msgstr "パスワードは変更できません"
+
+#: modum/member/_edit_member.php:129 modum/member/_list_member.php:78
+msgid "Name"
+msgstr "名前"
+
+#: modum/member/_edit_member.php:143 modum/member/_member_create.php:165
+msgid "Languages"
+msgstr "言語"
+
+#: modum/member/_edit_member.php:155 modum/member/_list_member.php:79
+#: modum/member/_member_create.php:177
+msgid "Role"
+msgstr "役割"
+
+#: modum/member/_edit_member.php:159
+msgid "Customer"
+msgstr "顧客"
+
+#: modum/member/_edit_member.php:160 modum/member/_list_member.php:87
+#: modum/member/_member_create.php:185
+msgid "Administrator"
+msgstr "管理者"
+
+#: modum/member/_edit_member.php:161 modum/member/_list_member.php:88
+#: modum/member/_member_create.php:186 modum/member/_orders_detail.php:570
+#: modum/member/_payment_detail.php:505
+msgid "Manager"
+msgstr "マネージャー"
+
+#: modum/member/_edit_member.php:163 modum/member/_list_member.php:90
+#: modum/member/_member_create.php:188
+msgid "Accountant"
+msgstr "経理"
+
+#: modum/member/_edit_member.php:181
+msgid "You can not edit this member !!!"
+msgstr "パスワードを変更する権限がありません。"
+
+#: modum/member/_edit_post.php:51 modum/member/_faq_edit.php:51
+msgid "Post updated!"
+msgstr "最終更新日：%s"
+
+#: modum/member/_edit_post.php:104 modum/member/_faq_category.php:131
+#: modum/member/_faq_edit.php:104
+msgid "Update"
+msgstr "更新"
+
+#: modum/member/_faq_category.php:20 modum/member/_faq_category_list.php:17
+#: side-bar.php:97
+msgid "FAQ Category"
+msgstr "FAQカテゴリー"
+
+#: modum/member/_faq_category.php:46
+msgid "Category inserted!"
+msgstr "カテゴリーを追加しました"
+
+#: modum/member/_faq_category.php:77
+msgid "Category updated!"
+msgstr "カテゴリーを更新しました"
+
+#: modum/member/_faq_category.php:118 modum/member/_faq_create.php:91
+#: modum/member/_faq_edit.php:95
+msgid "Status FAQ:"
+msgstr "公開状態"
+
+#: modum/member/_faq_category.php:120 modum/member/_faq_create.php:93
+#: modum/member/_faq_edit.php:97
+msgid "Publish FAQ"
+msgstr "公開"
+
+#: modum/member/_faq_category.php:121 modum/member/_faq_create.php:94
+#: modum/member/_faq_edit.php:98
+msgid "Pending FAQ"
+msgstr "非公開"
+
+#: modum/member/_faq_category_list.php:9
+msgid "Category deleted successfully!"
+msgstr "カテゴリーを削除しました"
+
+#: modum/member/_faq_category_list.php:10
+msgid "Category created successfully!"
+msgstr "カテゴリーを作成しました"
+
+#: modum/member/_faq_category_list.php:11
+msgid "Category edited successfully!"
+msgstr "カテゴリーを編集しました"
+
+#: modum/member/_faq_category_list.php:31 modum/member/_faq_list.php:76
+#: modum/member/_post_list.php:65
+msgid "Title"
+msgstr "タイトル"
+
+#: modum/member/_faq_create.php:20 modum/member/_faq_edit.php:20
+#: modum/member/_faq_list.php:15 modum/member/_faq_list.php:35
+#: modum/member/_related_questions.php:30 side-bar.php:84 side-bar.php:143
+msgid "FAQ"
+msgstr "FAQ"
+
+#: modum/member/_faq_create.php:106 modum/member/_faq_edit.php:110
+#: modum/member/_faq_list.php:77
+msgid "Category"
+msgstr "カテゴリー"
+
+#: modum/member/_faq_create.php:132
+msgid "Add category"
+msgstr "カテゴリー追加"
+
+#: modum/member/_faq_list.php:9 modum/member/_post_list.php:10
+msgid "Delete post successfull !!!"
+msgstr "記事を削除しました"
+
+#: modum/member/_faq_list.php:43
+msgid "Frequently asked questions"
+msgstr "FAQ"
+
+#: modum/member/_list_member.php:23 modum/member/_list_member.php:31
+msgid "User List"
+msgstr "ユーザー一覧"
+
+#: modum/member/_list_member.php:77
+msgid "User Name"
+msgstr "ユーザー名"
+
+#: modum/member/_list_member.php:86
+msgid "Master"
+msgstr "マスター"
+
+#: modum/member/_member_create.php:22
+msgid "Member"
+msgstr "ユーザー"
+
+#: modum/member/_member_create.php:30
+msgid "Member create"
+msgstr "ユーザー新規追加"
+
+#: modum/member/_member_create.php:48
+msgid "Username can not be blank"
+msgstr "ユーザー名を入力してください"
+
+#: modum/member/_member_create.php:52 modum/member/_patient_regis.php:45
+msgid "Fullname can not be blank"
+msgstr "名前を入力してください"
+
+#: modum/member/_member_create.php:56
+msgid "Email can not be blank"
+msgstr "メールアドレスを入力してください"
+
+#: modum/member/_member_create.php:60
+msgid "Please select role"
+msgstr "権限を選択してください"
+
+#: modum/member/_member_create.php:64
+msgid "Password can not be blank"
+msgstr "パスワードを入力してください"
+
+#: modum/member/_member_create.php:88
+msgid "Create member success !!!"
+msgstr "ユーザー登録しました"
+
+#: modum/member/_member_create.php:141
+msgid "Full name"
+msgstr "フルネーム"
+
+#: modum/member/_member_create.php:216
+msgid "Add member"
+msgstr "ユーザーを追加"
+
+#: modum/member/_messages.php:40 modum/member/_messages.php:50
+#: modum/member/_message_detail.php:25 modum/member/_message_detail.php:37
+msgid "Inbox"
+msgstr "受信トレイ"
+
+#: modum/member/_messages.php:56 modum/member/_message_detail.php:43
+msgid "Unread"
+msgstr "未読"
+
+#: modum/member/_messages.php:62 modum/member/_message_detail.php:49
+msgid "Read"
+msgstr "既読"
+
+#: modum/member/_no_authorize.php:5 modum/member/_no_authorize.php:13
+msgid "Access denied"
+msgstr "アクセス拒否"
+
+#: modum/member/_operating_manual.php:6 modum/member/_operating_manual.php:13
+msgid "Operating manual"
+msgstr "操作マニュアル"
+
+#: modum/member/_operating_manual.php:15
+msgid "+"
+msgstr ""
+
+#: modum/member/_operating_manual.php:16
+msgid "-"
+msgstr ""
+
+#: modum/member/_operating_manual.php:17
+msgid "Previous"
+msgstr "前へ"
+
+#: modum/member/_operating_manual.php:18
+msgid "Next"
+msgstr "次へ"
+
+#: modum/member/_operating_manual.php:20
+msgid "Page:"
+msgstr "ページ"
+
+#: modum/member/_orders - Copy.php:22 modum/member/_orders_detail.php:467
+msgid "Orders"
+msgstr "注文一覧"
+
+#: modum/member/_orders - Copy.php:31 modum/member/_orders.php:36
+#: modum/member/_payment.php:35
+msgid "Search Form"
+msgstr "注文検索"
+
+#: modum/member/_orders - Copy.php:36
+msgid "Search by Order number, Company name, Contact person, Patient etc."
+msgstr "注文番号、顧客名、担当者名"
+
+#: modum/member/_orders - Copy.php:85 modum/member/_orders.php:121
+#: modum/member/_payment.php:90
+msgid "Order List"
+msgstr "注文一覧"
+
+#: modum/member/_orders - Copy.php:121 modum/member/_orders.php:173
+#: modum/member/_payment.php:132
+msgid "Filter by shipping date from "
+msgstr "納品日でフィルターする。 "
+
+#: modum/member/_orders - Copy.php:122 modum/member/_orders.php:174
+#: modum/member/_payment.php:133
+msgid " to "
+msgstr " へ "
+
+#: modum/member/_orders - Copy.php:123 modum/member/_orders.php:175
+#: modum/member/_payment.php:134
+msgid "Filter by order date from "
+msgstr "注文日でフィルターする。"
+
+#: modum/member/_orders - Copy.php:124 modum/member/_orders.php:176
+#: modum/member/_payment.php:135
+msgid "Filter by keyword: "
+msgstr "検索条件:"
+
+#: modum/member/_orders - Copy.php:125 modum/member/_orders.php:177
+#: modum/member/_payment.php:136
+msgid "(View all)"
+msgstr "(全て見る)"
+
+#: modum/member/_orders - Copy.php:128 modum/member/_orders.php:180
+#: modum/member/_payment.php:138
+msgid "(status are pending)"
+msgstr "(本日納品分データ確認待ち)"
+
+#: modum/member/_orders - Copy.php:129 modum/member/_orders.php:181
+msgid "(priority is high)"
+msgstr "お急ぎ対応"
+
+#: modum/member/_orders.php:27
+msgid "Orders list"
+msgstr "注文一覧"
+
+#: modum/member/_orders.php:48 modum/member/_payment.php:43
+msgid "All"
+msgstr "全て"
+
+#: modum/member/_orders.php:77 modum/member/_payment.php:60
+msgid "Keyword"
+msgstr "キーワード"
+
+#: modum/member/_orders.php:79 modum/member/_payment.php:62
+msgid "Search by Order number, Company name etc."
+msgstr "注文番号、顧客名"
+
+#: modum/member/_orders.php:84
+msgid "Date range filter"
+msgstr "期間"
+
+#: modum/member/_orders_detail.php:210 modum/member/_orders_detail.php:951
+msgid "Prefix number is not equal"
+msgstr "注文番号が一致していません<br>もう一度アップロードしてください"
+
+#: modum/member/_orders_detail.php:392 modum/member/_orders_detail.php:469
+#: modum/member/_orders_detail.php:478 modum/member/_payment_detail.php:329
+#: modum/member/_payment_detail.php:406 modum/member/_payment_detail.php:415
+msgid "Order Detail"
+msgstr "注文詳細"
+
+#: modum/member/_orders_detail.php:480 modum/member/_payment_detail.php:417
+#, php-format
+msgid "Last updated: %s"
+msgstr "公開状況を変更しました：%s"
+
+#: modum/member/_orders_detail.php:481 modum/member/_payment_detail.php:418
+msgid "View history update"
+msgstr "更新履歴を見る"
+
+#: modum/member/_orders_detail.php:493 modum/member/_payment_detail.php:429
+msgid "Customer Infomation"
+msgstr "顧客情報"
+
+#: modum/member/_orders_detail.php:583 modum/member/_orders_detail.php:618
+#: modum/member/_payment_detail.php:518 modum/member/_payment_detail.php:537
+msgid "Choose authorized people"
+msgstr "ユーザーを選択してください"
+
+#: modum/member/_orders_detail.php:622 modum/member/_orders_detail.php:728
+#: modum/member/_payment_detail.php:633
+msgid "Mark as paid"
+msgstr "ファイルダウンロードを許可する"
+
+#: modum/member/_orders_detail.php:642 modum/member/_payment_detail.php:548
+msgid "Billing Information"
+msgstr "請求情報"
+
+#: modum/member/_orders_detail.php:647 modum/member/_payment_detail.php:553
+msgid "Paid Date"
+msgstr "支払日"
+
+#: modum/member/_orders_detail.php:653 modum/member/_payment_detail.php:404
+#: modum/member/_payment_detail.php:559 side-bar.php:20 side-bar.php:63
+msgid "Payment"
+msgstr "請求管理"
+
+#: modum/member/_orders_detail.php:690 modum/member/_payment_detail.php:596
+msgid "Tax"
+msgstr "税"
+
+#: modum/member/_orders_detail.php:705 modum/member/_payment_detail.php:611
+msgid "Total QTY"
+msgstr "合計本数"
+
+#: modum/member/_orders_detail.php:761 modum/member/_payment_detail.php:665
+msgid "Patient Information"
+msgstr "患者様名"
+
+#: modum/member/_orders_detail.php:784 modum/member/_payment_detail.php:688
+#, php-format
+msgid "Order Details (#%s)"
+msgstr "製作内容(#%s)"
+
+#: modum/member/_orders_detail.php:800 modum/member/_payment_detail.php:704
+msgid "Tooth Numbering"
+msgstr "製作部位"
+
+#: modum/member/_orders_detail.php:823 modum/member/_payment_detail.php:727
+msgid "Shipping Request Date"
+msgstr "ご希望納期 "
+
+#: modum/member/_orders_detail.php:841 modum/member/_payment_detail.php:745
+msgid "Manufacturing Data"
+msgstr "加工用データ"
+
+#: modum/member/_orders_detail.php:845
+msgid "Please select the operator person"
+msgstr "テクニシャンを選んでください"
+
+#: modum/member/_orders_detail.php:857 modum/member/_orders_detail.php:911
+#: modum/member/_payment_detail.php:757 modum/member/_payment_detail.php:802
+msgid "Expired Date"
+msgstr "ダウンロード有効期限"
+
+#: modum/member/_orders_detail.php:865 modum/member/_payment_detail.php:765
+msgid "Download this file"
+msgstr "CSV一括ダウンロード"
+
+#: modum/member/_orders_detail.php:871 modum/member/_payment_detail.php:771
+msgid "Shippable Data"
+msgstr "納品データ"
+
+#: modum/member/_orders_detail.php:887 modum/member/_orders_detail.php:894
+#: modum/member/_payment_detail.php:789 modum/member/_payment_detail.php:791
+msgid "No file uploaded"
+msgstr "ファイルが選択されていません"
+
+#: modum/member/_orders_detail.php:887
+msgid "Please download manufacture file"
+msgstr "納品データアップロード待ち"
+
+#: modum/member/_orders_detail.php:891 modum/member/_payment_detail.php:789
+msgid "Check it"
+msgstr "再ダウンロード"
+
+#: modum/member/_orders_detail.php:901 modum/member/_payment_detail.php:796
+msgid "Edit"
+msgstr "再アップロード"
+
+#: modum/member/_orders_detail.php:901 modum/member/_payment_detail.php:796
+msgid "Upload"
+msgstr "アップロード"
+
+#: modum/member/_orders_detail.php:923 modum/member/_payment_detail.php:814
+msgid "Upload the final file here"
+msgstr "こちらに完成したファイルをアップロードしてください"
+
+#: modum/member/_orders_detail.php:976 modum/member/_payment_detail.php:844
+msgid "Go back to Order List"
+msgstr "注文一覧へ戻る"
+
+#: modum/member/_patient_list.php:9
+msgid "Delete patient successfull !!!"
+msgstr "患者名を削除しました"
+
+#: modum/member/_patient_list.php:15
+msgid "Delete Patient"
+msgstr "患者削除"
+
+#: modum/member/_patient_list.php:32
+msgid "Search Patient"
+msgstr "患者名検索"
+
+#: modum/member/_patient_list.php:38
+msgid "Patient Code, Patient Name"
+msgstr "患者番号、患者名"
+
+#: modum/member/_patient_regis.php:21 modum/member/_patient_regis.php:29
+msgid "Patient Registration"
+msgstr "患者名登録"
+
+#: modum/member/_patient_regis.php:60
+msgid "Please enter valid age."
+msgstr "正しいメールアドレスを入力してください"
+
+#: modum/member/_patient_regis.php:77
+msgid "New patient created successfully !!!"
+msgstr "新会員を作成できました"
+
+#: modum/member/_patient_regis.php:146
+msgid "Add Patient"
+msgstr "患者様を追加する"
+
+#: modum/member/_payment.php:26
+msgid "Accountant-payment"
+msgstr "請求管理"
+
+#: modum/member/_payment.php:51
+msgid "Unpaid payment"
+msgstr "未入金"
+
+#: modum/member/_payment.php:100
+msgid "Customer name"
+msgstr "顧客名"
+
+#: modum/member/_payment.php:112
+msgid "Totals"
+msgstr "ご注文金額合計"
+
+#: modum/member/_payment.php:139
+msgid "Updated"
+msgstr "更新しました。"
+
+#: modum/member/_payment.php:140
+msgid "Please enter number"
+msgstr "番号を入力してください"
+
+#: modum/member/_payment.php:141
+msgid "Number too big"
+msgstr "入金金額がお支払い金額を超えています"
+
+#: modum/member/_payment.php:142
+msgid "Payment Status updated!"
+msgstr "お支払い状況を更新しました"
+
+#: modum/member/_payment_detail.php:273
+#, php-format
+msgid "Patient: %s <br>"
+msgstr "患者様名:%s <br>"
+
+#: modum/member/_price_setting.php:19
+#: modum/member/_price_setting_system.php:19
+msgid "Setting"
+msgstr "設定"
+
+#: modum/member/_price_setting.php:27
+#: modum/member/_price_setting_system.php:263
+msgid "Language Setting"
+msgstr "言語設定"
+
+#: modum/member/_price_setting.php:43
+#: modum/member/_price_setting_system.php:279
+msgid "Language was set successfully!"
+msgstr "言語設定を変更しました"
+
+#: modum/member/_price_setting.php:51
+#: modum/member/_price_setting_system.php:287
+msgid "Main Language"
+msgstr "言語"
+
+#: modum/member/_price_setting.php:61
+#: modum/member/_price_setting_system.php:297
+msgid "※ Use for default & message and email"
+msgstr ""
+"この設定する言語は、WEBサイトの表示、通知メッセージ、送信されるEmailの言語と"
+"なります。<br>WEBサイトの表示言語を変更するには、一度ログアウトをして再度ログ"
+"インしてください。"
+
+#: modum/member/_price_setting_system.php:54
+msgid "Price was set successfully!"
+msgstr "料金設定を変更しました"
+
+#: modum/member/_price_setting_system.php:60
+msgid "Price"
+msgstr "価格/本"
+
+#: modum/member/_price_setting_system.php:78
+msgid "Total Pricing"
+msgstr "合計/本"
+
+#: modum/member/_price_setting_system.php:122
+msgid "Urgent Price setting was set successfully!"
+msgstr "お急ぎ対応価格設定を変更しました"
+
+#: modum/member/_price_setting_system.php:128
+msgid "Price Cost "
+msgstr "価格"
+
+#: modum/member/_price_setting_system.php:157
+msgid "Admin Email Setting"
+msgstr "システム用メール設定"
+
+#: modum/member/_price_setting_system.php:177
+msgid "Mail was set successfully!"
+msgstr "システム用メール設定を変更しました"
+
+#: modum/member/_price_setting_system.php:183
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: modum/member/_price_setting_system.php:185
+msgid "※ Use for default admin email"
+msgstr "※デフォルトメールに使用"
+
+#: modum/member/_price_setting_system.php:197
+msgid "Terms and Conditions"
+msgstr "利用規約の内容"
+
+#: modum/member/_price_setting_system.php:223
+msgid "Policy was saved successfully!"
+msgstr "利用規約を変更しました"
+
+#: modum/member/_revenue_detail.php:21
+msgid "Revenue Detail"
+msgstr "売上詳細"
+
+#: modum/member/_revenue_detail.php:35
+msgid "Billing Month"
+msgstr "請求月"
+
+#: modum/member/_revenue_detail.php:44
+msgid "Amount Billed"
+msgstr "請求額"
+
+#: modum/member/_revenue_detail.php:55
+msgid "Sales Billing Management Billing Monthly Details"
+msgstr "売上請求管理の詳細"
+
+#: modum/member/_revenue_list.php:20
+msgid "Revenue List"
+msgstr "売上一覧"
+
+#: modum/member/_revenue_list.php:40
+msgid "Billing month"
+msgstr "請求月"
+
+#: modum/member/_revenue_list.php:61
+msgid "Sales Billing Management Billing List"
+msgstr "売上請求管理一覧"
+
+#: modum/member/_revenue_list.php:67
+msgid "Use month"
+msgstr "月"
+
+#: modum/member/_revenue_list.php:68
+msgid "Amount"
+msgstr "金額"
+
+#: modum/member/_support.php:5 modum/member/_support.php:13 side-bar.php:152
+msgid "Support"
+msgstr "サポート"
+
+#: modum/member/_support.php:15
+msgid "If you have any questions , please feel free to get in touch via"
+msgstr "もし質問があれば、気軽に連絡してください"
+
+#: modum/member/_updateAccount.php:6
+#: modum/member/_updateAccount_customer.php:6 _header_member.php:411
+msgid "Profile"
+msgstr "プロフィール"
+
+#: modum/member/_updateAccount.php:15
+#: modum/member/_updateAccount_customer.php:15
+msgid "User profile"
+msgstr "プロフィール"
+
+#: modum/member/_updateAccount.php:98
+#: modum/member/_updateAccount_customer.php:108
+msgid ""
+"<h4 class=\"alert-heading\">Well done!</h4>Profile updated successfully!"
+msgstr "<h4 class=\"alert-heading\"></h4>プロフィールを変更しました"
+
+#: modum/member/_updateAccount.php:124
+#: modum/member/_updateAccount_customer.php:167
+msgid "Select file"
+msgstr "ファイル選択"
+
+#: modum/member/_updateAccount.php:133
+#: modum/member/_updateAccount_customer.php:176
+msgid "Description"
+msgstr "説明"
+
+#: modum/member/_updateAccount.php:156
+#: modum/member/_updateAccount_customer.php:227
+msgid "Fullname"
+msgstr "フルネーム"
+
+#: modum/member/_updateAccount.php:189
+msgid "Phone number"
+msgstr "電話番号"
+
+#: aside.php:22
+msgid "Today tasks"
+msgstr "本日のタスク"
+
+#: aside.php:103
+msgid "Today messages"
+msgstr "本日のメッセージ"
+
+#: index.php:122
+msgid "English"
+msgstr "English"
+
+#: index.php:123
+msgid "Tiếng Việt"
+msgstr "Tiếng Việt"
+
+#: index.php:124
+msgid "日本語"
+msgstr "日本語"
+
+#: index.php:145
+msgid "Same-Day"
+msgstr "普通"
+
+#: index.php:149
+msgid ""
+"We look forward to your continued support for VietQuocLab.<br>Contact "
+"us<br><a style=\"color:#5b9bd5\" href=\"mailto:info@vql.jp\">info@vql.jp</"
+"a></font><br><br>"
+msgstr ""
+"今後ともVietQuocLabをよろしくお願いいたします。<br><br>お問い合わせ先<br><a "
+"style=\"color:#5b9bd5\" href=\"mailto:info@vql.jp\">info@vql.jp</a></"
+"font><br><br>"
+
+#: index.php:150
+msgid "Website URL: "
+msgstr "URL "
+
+#: side-bar.php:15 side-bar.php:126
+msgid "Orders List"
+msgstr "注文一覧"
+
+#: side-bar.php:27
+msgid "New Order"
+msgstr "注文入力"
+
+#: side-bar.php:32
+msgid "Customer Manager"
+msgstr "顧客管理"
+
+#: side-bar.php:37
+msgid "Customers List"
+msgstr "顧客一覧"
+
+#: side-bar.php:41
+msgid "New Customer"
+msgstr "新規顧客登録"
+
+#: side-bar.php:48
+msgid "User Manager"
+msgstr "ユーザー管理"
+
+#: side-bar.php:53
+msgid "Users List"
+msgstr "ユーザー一覧"
+
+#: side-bar.php:57
+msgid "New User"
+msgstr "新規追加"
+
+#: side-bar.php:73
+msgid "Post List"
+msgstr "記事一覧"
+
+#: side-bar.php:77
+msgid "New Post"
+msgstr "新規追加"
+
+#: side-bar.php:89
+msgid "FAQ List"
+msgstr "FAQ一覧"
+
+#: side-bar.php:93
+msgid "New FAQ"
+msgstr "新規追加"
+
+#: side-bar.php:103
+msgid "Setting System"
+msgstr "システム設定"
+
+#: side-bar.php:108 side-bar.php:147
+msgid "Operating Manual"
+msgstr "操作マニュアル"
+
+#: side-bar.php:116
+msgid "Order"
+msgstr "注文する"
+
+#: _active_register.php:38 _active_register.php:57
+msgid "Your account has been activated successfully. You can now login."
+msgstr "会員登録が完了いたしました。<br>下記URLよりログインしてください。"
+
+#: _active_register.php:39
+#, php-format
+msgid "Login <a href=\"/%s\">here</a>"
+msgstr "ログインのURLは <a href=\"/%s\">こちら</a>"
+
+#: _active_register.php:58
+msgid "Your account activated"
+msgstr "会員登録が完了しました"
+
+#: _active_register.php:59
+msgid "Login"
+msgstr "ログイン"
+
+#: _active_register.php:69
+msgid "Account activated"
+msgstr "[VietQuocLab]会員登録が完了しました"
+
+#: _active_register.php:86
+msgid ""
+"For security reasons, when you receive a confirm registration email, you "
+"must click on the button/link and take action within 1 day"
+msgstr ""
+"セキュリティ上の理由のため、リンクの有効期限は仮登録から24時間以内です。"
+
+#: _active_register.php:87
+#, php-format
+msgid "Back to <a href=\"/%s\">login page</a>"
+msgstr "ログイン画面に <a href=\"/%s\">戻る</a>"
+
+#: _active_register.php:106
+msgid "Active"
+msgstr "承認"
+
+#: _active_register.php:132
+msgid "Congratulations"
+msgstr "本登録が完了いたしました"
+
+#: _active_register.php:132
+msgid "Your token has expired"
+msgstr "既に本登録済みか、リンクの有効期限が切れています"
+
+#: _change-pass.php:36 _forget-pass.php:42
+#, php-format
+msgid "Dear %s"
+msgstr "%s様"
+
+#: _change-pass.php:50
+msgid "Vietquoc change password"
+msgstr "[VietQuocLab]パスワードが変更されました"
+
+#: _change-pass.php:51
+msgid "Password changed"
+msgstr "パスワードが変更されました"
+
+#: _change-pass.php:73
+msgid "Change password successfull. Please check your mail for information"
+msgstr ""
+"パスワードが変更されました<br>次回から新しいパスワードでログインしてください"
+
+#: _change-pass.php:80
+msgid "Change your password failure. Please again"
+msgstr "パスワードの変更に失敗しました。もう一度入力してください。"
+
+#: _change-pass.php:107 _change-pass.php:143
+msgid "Change Password"
+msgstr "パスワードの変更"
+
+#: _change-pass.php:144
+msgid "News password"
+msgstr "新しいパスワード"
+
+#: _change-pass.php:160 _forget-pass.php:157
+msgid "Already have account?"
+msgstr "今すぐログインする場合は?"
+
+#: _change-pass.php:161 _forget-pass.php:159
+msgid "Sign In"
+msgstr "こちら"
+
+#: _forget-pass.php:41
+msgid "Reset Password"
+msgstr "パスワード更新"
+
+#: _forget-pass.php:43
+msgid ""
+"We have received a request to reset your password. If you did not make the "
+"request, just ignore this email. Otherwise, you can reset your password "
+"using this link:"
+msgstr ""
+"ご登録のアカウントに対して、パスワード再設定のリクエストが行われました。<br>"
+"下記のボタンをクリックして、パスワードを変更してください。"
+
+#: _forget-pass.php:44
+msgid ""
+"※ The link will be valid for 24 hours. If you did not make this request, you "
+"can just ignore this email."
+msgstr ""
+"※リンクの有効期限は仮登録から24時間以内です。<br>※有効期限が過ぎてしまった場"
+"合、再設定ができなくなります。"
+
+#: _forget-pass.php:51
+msgid "Vietquoc reset password"
+msgstr "[VietQuocLab]パスワードを設定してください"
+
+#: _forget-pass.php:52
+msgid "Please set password"
+msgstr "パスワードを設定してください"
+
+#: _forget-pass.php:76
+msgid ""
+"A message was send to your email address containing a link to reset your "
+"password."
+msgstr "お客様のメールアドレスにパスワードリセットメールを送信しました。"
+
+#: _forget-pass.php:83
+msgid "Unable to reset your password. Please try again"
+msgstr "IDまたはパスワードが間違っています。もう一度入力してください。"
+
+#: _forget-pass.php:91
+msgid "User doesn't exits"
+msgstr "ユーザーが存在しません"
+
+#: _forget-pass.php:104
+msgid "Forget Password"
+msgstr "パスワードを忘れた場合"
+
+#: _forget-pass.php:138
+msgid "Did you forget your password?"
+msgstr "パスワードを忘れた場合?"
+
+#: _forget-pass.php:139
+msgid ""
+"Provide your email that you used to register. We will send you information "
+"on how to reset your password."
+msgstr ""
+"登録されているメールアドレスを入力してください。パスワードリセットメールを送"
+"信します。メールアドレスを登録していない場合や、登録したメールアドレスがわか"
+"らない場合は、管理者にお問い合わせください。"
+
+#: _forget-pass.php:148
+msgid "Your email"
+msgstr "メールアドレス"
+
+#: _header_member.php:140
+msgid "Select language"
+msgstr "表示言語"
+
+#: _header_member.php:188
+#, php-format
+msgid "#%s downloaded"
+msgstr "#%sダウンロード"
+
+#: _header_member.php:192
+#, php-format
+msgid "#%s uploaded"
+msgstr "#%s 納品済"
+
+#: _header_member.php:196
+#, php-format
+msgid "#%s delivered"
+msgstr "#%s 納品済"
+
+#: _header_member.php:200
+#, php-format
+msgid "#%s completed"
+msgstr "#%s 納品済"
+
+#: _header_member.php:204
+msgid "New customer registered"
+msgstr "新規顧客登録"
+
+#: _header_member.php:208 _header_member.php:236
+#, php-format
+msgid "New Order #%s"
+msgstr "新しい注文#%s"
+
+#: _header_member.php:266
+#, php-format
+msgid "You have %d notifications"
+msgstr "%d件通知があります。"
+
+#: _header_member.php:266
+#, php-format
+msgid "You have %d notification"
+msgstr "%d件通知があります"
+
+#: _header_member.php:286
+msgid "View all notifications"
+msgstr "すべての通知を見る"
+
+#: _header_member.php:293
+msgid "You have no notification"
+msgstr "通知はありません"
+
+#: _header_member.php:307
+#, php-format
+msgid "You have %d pending tasks"
+msgstr "製作待ちのタスクが%d個あります"
+
+#: _header_member.php:307
+#, php-format
+msgid "You have %d pending task"
+msgstr "製作待ちのタスクが%d個あります"
+
+#: _header_member.php:323
+msgid "View all tasks"
+msgstr "全てタスクを見る"
+
+#: _header_member.php:329
+msgid "You have no pending task"
+msgstr "製作待ちのタスクがあります。"
+
+#: _header_member.php:395
+msgid "Welcome"
+msgstr "ようこそ！"
+
+#: _header_member.php:397
+#, php-format
+msgid "%s %s"
+msgstr "%s 様 %s"
+
+#: _header_member.php:408
+msgid "Account"
+msgstr "アカウント"
+
+#: _header_member.php:414
+msgid "Do you really want to logout?"
+msgstr "本当にログアウトしますか?"
+
+#: _header_member.php:415
+msgid "Logout"
+msgstr "ログアウト"
+
+#: _login.php:66
+msgid "Duplicated user. Please contact Admin"
+msgstr "ユーザー名IDが存在しています。 管理者に連絡してください。"
+
+#: _login.php:107 _logon.php:99
+msgid "Acount ID or password wrong. Please try again !"
+msgstr " ID、またはパスワードが間違っています。もう一度ご入力ください"
+
+#: _login.php:165 _logon.php:157
+msgid "Error"
+msgstr "エラー"
+
+#: _login.php:179 _login.php:201 _logon.php:171 _logon.php:193
+msgid "Sign in"
+msgstr "サインイン"
+
+#: _login.php:197 _logon.php:189
+msgid "Remember me?"
+msgstr "状態保留"
+
+#: _login.php:204 _logon.php:196
+msgid "Forgot password?"
+msgstr "パスワードを忘れた場合?"
+
+#: _login.php:214 _register.php:208
+msgid "Sign up"
+msgstr "新規会員登録"
+
+#: _login.php:215
+msgid ""
+"If you don&#39;t have an user account, please create an account to register "
+"online for Vietquoc Lab order management system"
+msgstr ""
+"VietQuocLabのオンラインシステムをご利用になるには、下記より会員登録を行ってく"
+"ださい。"
+
+#: _login.php:216
+msgid "Create A New Account"
+msgstr "アカウント作成"
+
+#: _logon.php:58
+msgid "Username ID or duplicate. Please contact Admin"
+msgstr "ユーザー名IDまたは重複しています。 管理者に連絡してください"
+
+#: _register.php:209
+msgid "Create your account"
+msgstr "下記の欄に情報を入力してください"
+
+#: _register.php:219
+msgid "Please enter username"
+msgstr "ユーザー名を入力してください"
+
+#: _register.php:226
+msgid "Please enter your company name"
+msgstr "会社名を入力してください"
+
+#: _register.php:227 _register.php:237
+msgid "Please enter company name"
+msgstr "会社名を入力してください"
+
+#: _register.php:234
+msgid "Company Name <br/> (Roman characters)"
+msgstr "会社名 <br/> (ローマ字)"
+
+#: _register.php:236
+msgid "Please enter your company name in Roman characters"
+msgstr "会社名をローマ字で入力してください"
+
+#: _register.php:246
+msgid "Please enter your contact person name"
+msgstr "ご連絡担当者名を入力してください"
+
+#: _register.php:252
+msgid "Contact person <br/> (Roman characters)"
+msgstr "ご連絡担当者名<br/>（ローマ字）"
+
+#: _register.php:254
+msgid "Please enter your contact person name in Roman characters"
+msgstr "ご連絡担当者名をローマ字で入力してください"
+
+#: _register.php:283
+msgid "Zip code"
+msgstr "郵便番号　※数字のみ(ハイフン無し)でご入力ください　例）12234567"
+
+#: _register.php:295
+msgid "Please enter all address fields"
+msgstr "住所を入力してください"
+
+#: _register.php:307
+msgid "Please enter a valid email"
+msgstr "正しいメールアドレスを入力してください"
+
+#: _register.php:364
+msgid "Please type strong password"
+msgstr "強力なパスワードを入力してください"
+
+#: _register.php:370
+msgid ""
+"Membership registration requires that you agree to the terms and conditions "
+"of membership.Please read the following terms and conditions carefully, and "
+"if you agree, please check the \"I agree with the terms and conditions\" at "
+"the bottom, then click the \"Confirmation of content\" button to proceed."
+msgstr ""
+"新規会員登録の際は「ご利用規約」を必ずお読みいただき、ご利用規約にご同意の"
+"上、確認画面へお進みください。"
+
+#: _register.php:379
+msgid "Please agree to our policy"
+msgstr "利用規約に同意します"
+
+#: _register.php:393
+msgid "Back"
+msgstr "戻る"
+
+#: _register_complete.php:66
+msgid "THANK YOU FOR REGISTERING"
+msgstr "仮登録を受付ました"
+
+#: _register_complete.php:67
+msgid ""
+"Thank you for registering to the VietquocLab website. You should receive a "
+"confirmation email shortly with your user name and password reminder."
+msgstr ""
+"この度は、弊社サービスにご登録いただきありがとうございます。<br>ご登録いただ"
+"きましたメールアドレス宛に本登録用リンクが記載されたメールをお送りいたしまし"
+"た。"
+
+#: _register_complete.php:68
+msgid ""
+"Open the email and click on <strong>Activate Account</strong> to verify your "
+"account."
+msgstr ""
+" <strong> メールの内容をご確認いただき、本登録にお進みください。</strong>"
+
+#: _register_confirm.php:72
+msgid "Welcome [VietQuocLab]"
+msgstr "[VietQuocLab]仮登録が完了しました"
+
+#: _register_confirm.php:74
+msgid "Dear customer"
+msgstr "仮登録が完了しました"
+
+#: _register_confirm.php:80
+msgid "Activate Account"
+msgstr "アカウントにアクセスする"
+
+#: _register_confirm.php:88
+msgid ""
+"Your new VietquocLab Account has been created. Welcome to the VietquocLab "
+"community!<br>Please click on <strong>Activate Account</strong> button to "
+"verify your account:"
+msgstr ""
+"弊社サービスに仮登録いただきありがとうございました。<br>内容にお間違いが無け"
+"れば、下記ボタンをクリックし本登録を完了させてください。<br>なお、メールアド"
+"レスの記入ミスにより本メールを受け取った場合は、<br>削除をお願いします。"
+
+#: _register_confirm.php:165
+msgid "Confirm your input"
+msgstr "入力確認"
+
+#: _register_confirm.php:270
+msgid "Create Account"
+msgstr "アカウント作成"
+
+#: class/class.utilities.php:381
+msgid "minute"
+msgstr "分"
+
+#: class/class.utilities.php:386
+msgid "hour"
+msgstr "時間"
+
+#: class/class.utilities.php:391
+msgid "day"
+msgstr "日"
+
+#: class/class.utilities.php:396
+msgid "week"
+msgstr "週間"
+
+#: class/class.utilities.php:401
+msgid "month"
+msgstr "月"
+
+#: class/class.utilities.php:406
+msgid "year"
+msgstr "年"
+
+#: class/class.utilities.php:410
+#, php-format
+msgid "one %s ago"
+msgstr "1%s 前"
+
+#: class/class.utilities.php:414
+#, php-format
+msgid "%s %ss ago"
+msgstr "%s %s前"
+
+#: class/class.utilities.php:472
+msgid "Jan"
+msgstr "1月"
+
+#: class/class.utilities.php:473
+msgid "Feb"
+msgstr "2月"
+
+#: class/class.utilities.php:474
+msgid "Mar"
+msgstr "3月"
+
+#: class/class.utilities.php:475
+msgid "Apr"
+msgstr "4月"
+
+#: class/class.utilities.php:477
+msgid "Jun"
+msgstr "6月"
+
+#: class/class.utilities.php:478
+msgid "Jul"
+msgstr "7月"
+
+#: class/class.utilities.php:479
+msgid "Aug"
+msgstr "8月"
+
+#: class/class.utilities.php:480
+msgid "Sep"
+msgstr "9月"
+
+#: class/class.utilities.php:481
+msgid "Oct"
+msgstr "10月"
+
+#: class/class.utilities.php:482
+msgid "Nov"
+msgstr "11月"
+
+#: class/class.utilities.php:483
+msgid "Dec"
+msgstr "12月"
+
+#: phpgettext/examples/pigs_dropin.php:77
+#: phpgettext/examples/pigs_fallback.php:76
+msgid ""
+"This is how the story goes.\n"
+"\n"
+msgstr ""
+
+#~ msgid "Booking detail"
+#~ msgstr "ご注文詳細"
+
+#~ msgid "Register"
+#~ msgstr "新規会員登録"
+
+#~ msgid "Address , Postal code  Please enter numbers Ex 12234567"
+#~ msgstr "郵便番号　※数字のみ(ハイフン無し)でご入力ください　例）12234567"
+
+#~ msgid "Goto confirm screen"
+#~ msgstr "確認画面へ"
+
+#~ msgid "Questions"
+#~ msgstr "FAQ"
+
+#~ msgid "Sex"
+#~ msgstr "性別"
+
+#~ msgid "ID , Patitent Name , Phone Number"
+#~ msgstr "患者番号、患者名様から探す"
+
+#~ msgid "Booking List"
+#~ msgstr "ご注文履歴"
+
+#~ msgid "Order number, Patient"
+#~ msgstr "ご注文番号、患者名から探す"
+
+#~ msgid "Search by Order number, Patient."
+#~ msgstr "ご注文番号、患者名から探す"
+
+#~ msgid "History Order"
+#~ msgstr "ご注文履歴"
+
+#~ msgid "Not declared"
+#~ msgstr "未選択"
+
+#~ msgid "CompanyName"
+#~ msgstr "会社名"
+
+#~ msgid "Please select a valid delivery time"
+#~ msgstr "期日を選択してください"
+
+#~ msgid "Status faq"
+#~ msgstr "公開状況"
+
+#~ msgid "Posted by: %s <small class=\"text-muted\">- %s</small>"
+#~ msgstr "投稿者: %s <small class=\"text-muted\">- %s</small>"
+
+#~ msgid " and payment status is mark as paid"
+#~ msgstr "請求一覧"
+
+#~ msgid " and payment status is partial payment"
+#~ msgstr "お支払い状況は一部入金で"
+
+#~ msgid "Ex: Yamda Dental Lab"
+#~ msgstr "例) 山田歯科技工所"
+
+#~ msgid "Ex: Yamada Taro"
+#~ msgstr "例) 山田　太郎"
+
+#~ msgid "Welcome vql"
+#~ msgstr "[VietQuocLab]仮登録完了のお知らせ"
+
+#~ msgid "Vietquoc contact form"
+#~ msgstr "[VietQuocLab]お問い合わせありがとうございます"
+
+#~ msgid "About Order"
+#~ msgstr "ご注文について"
+
+#~ msgid "About Manufacturing"
+#~ msgstr "製作物"
+
+#~ msgid "Customer Code"
+#~ msgstr "顧客名コード"
+
+#~ msgid "Order list filter by keyword: %s %s"
+#~ msgstr "キーワードで注文一覧をフィルターする：:%s %s"
+
+#~ msgid "All orders %s"
+#~ msgstr "全て注文する%s"
+
+#~ msgid "Checker"
+#~ msgstr "チェッカー"
+
+#~ msgid "Order ID / Patient"
+#~ msgstr "注文番号、患者名"
+
+#~ msgid "Total Order"
+#~ msgstr "ご注文合計"
+
+#~ msgid "<strong>Error</strong>"
+#~ msgstr "<strong>エラー</strong>"
+
+#~ msgid "<span class=\"badge badge-danger customer-badge\">Pending</span>"
+#~ msgstr "<span class=\"badge badge-danger customer-badge\">製作待ち</span>"
+
+#~ msgid ""
+#~ "<span class=\"badge badge-warning text-white customer-badge\">Assigning</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span class=\"badge badge-warning text-white customer-badge\">製作中</"
+#~ "span>"
+
+#~ msgid "<span class=\"badge badge-primary customer-badge\">Processing</span>"
+#~ msgstr "<span class=\"badge badge-primary customer-badge\">製作中</span>"
+
+#~ msgid ""
+#~ "<span class=\"badge badge-info text-white customer-badge\">Completed</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span class=\"badge  badge-info text-white customer-badge\">出荷準備中</"
+#~ "span>"
+
+#~ msgid "<span class=\"badge badge-success customer-badge\">Delivered</span>"
+#~ msgstr "<span class=\"badge badge-success customer-badge\">納品済 </span>"
+
+#~ msgid "Number of Patients"
+#~ msgstr "患者数"
+
+#~ msgid ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\tLanguage was set successfully!\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+#~ msgstr ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\t言語設定を変更しました\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+
+#~ msgid ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\tPrice was set successfully!\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+#~ msgstr ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\t料金設定を変更しました\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+
+#~ msgid ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\tUrgent Price setting was set successfully!\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+#~ msgstr ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\tお急ぎ対応価格設定を変更しました\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+
+#~ msgid ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\tMail was set successfully!\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+#~ msgstr ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\tシステム用メール設定を変更しました\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+
+#~ msgid ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\tPolicy was saved successfully!\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+#~ msgstr ""
+#~ "<div class=\"alert alert-success\" role=\"alert\">\n"
+#~ "\t\t\t\t\t\t\t\t\tポリシーを更新に完成しました!\n"
+#~ "\t\t\t\t\t\t\t\t  </div>"
+
+#~ msgid "<span class=\"badge badge-warning customer-badge\">Unpaid</span>"
+#~ msgstr "<span class=\"badge badge-warning customer-badge\">未</span>"
+
+#~ msgid "<span class=\"badge badge-success customer-badge\">Paid</span>"
+#~ msgstr "<span class=\"badge badge-success customer-badge\">済</span>"
+
+#~ msgid "%s-%s"
+#~ msgstr "%s月%s日"
+
+#~ msgid "Credit Card Number"
+#~ msgstr "クレジットカードの番号"
+
+#~ msgid "%s/%s/%s"
+#~ msgstr "%s年%s月%s日"
+
+#~ msgid "<span class=\"badge badge-danger customer-badge\">Invoice</span>"
+#~ msgstr "<span class=\"badge badge-danger customer-badge\">製作待ち</span>"
+
+#~ msgid "Invoice"
+#~ msgstr "請求書"
+
+#~ msgid "Bank Transfer"
+#~ msgstr "銀行振込"
+
+#~ msgid "Patient: %s - Password to download: %s <br>"
+#~ msgstr "患者様名: %s ダウンロード用パスワード: %s <br>"
+
+#~ msgid "You have %d unread messages"
+#~ msgstr "通知が%d件あります。"
+
+#~ msgid "You have %d unread message"
+#~ msgstr "%d未開封メッセージ"
+
+#~ msgid "View all message"
+#~ msgstr "全てメッセージを見る"
+
+#~ msgid "You have no mesage"
+#~ msgstr "通知はありません"
+
+#~| msgid "Payment Method"
+#~ msgid "Payment Methods"
+#~ msgstr "お支払い方法"
+
+#~| msgid "Payment on invoice"
+#~ msgid "Payment On Invoice "
+#~ msgstr "請求書払い"
+
+#~ msgid "Data is ready for download"
+#~ msgstr "[VietQuocLab]データの準備が完了しました"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Tiếng việt"
+
+#~ msgid "Japanese"
+#~ msgstr "日本語"
+
+#~ msgid ""
+#~ "Thank you for your inquiry. Depending on the content, it may take time to "
+#~ "give an answer. In addition, please note that holidays will be available "
+#~ "after the next business day."
+#~ msgstr ""
+#~ "お問い合わせありがとうございます。<br><br>内容を確認いたしまして担当よりご"
+#~ "連絡いたします。<br>※お問い合わせ内容によりましては、ご回答に時間がかかる"
+#~ "場合があります。"
+
+#~ msgid "Dear"
+#~ msgstr "こんにちは！"
+
+#~ msgid ""
+#~ "This email is an automatic email<br>Our representative will contact you "
+#~ "within 2 business days<br>If you do not get in touch within 2 business "
+#~ "days, there may be a problem with your mail server, so please contact us "
+#~ "by phone.<br>Phone number (084) 08.37271267, (084) 08.37271 268<br>"
+#~ msgstr ""
+#~ "2営業日以内に連絡が取れない場合は、メールサーバーに問題がある可能性があり"
+#~ "ます。電話でお問い合わせください。"
+
+#~ msgid ""
+#~ "<font size=\"2\">If you have any comments or questions, please do not "
+#~ "hesitate to reach us a <a style=\"color:#5b9bd5\" href=\"mailto:"
+#~ "info@vietquoc.vn\">info@vietquoc.vn</a></font><br><br><br>Best regards,"
+#~ "<br>Rang Su Viet Quoc Group<br>"
+#~ msgstr ""
+#~ "<font size=\"2\">ご意見やご質問がありましたら、お気軽にお問い合わせくださ"
+#~ "い。 <a style=\"color:#5b9bd5\" href=\"mailto:info@vietquoc.vn"
+#~ "\">info@vietquoc.vn</a></font><br><br><br>宜しくお願いします。<br>Rang Su "
+#~ "Viet Quoc Group<br>"
+
+#~ msgid "Register Now!"
+#~ msgstr "今すぐ登録！"
+
+#~ msgid "You were received this email because you registered on"
+#~ msgstr "このメールを受信しました理由はアカウントを登録しましたから。"
+
+#~ msgid "Please select VITA Shade"
+#~ msgstr "VITAシェードガイドを選択してくだいさい。"
+
+#~ msgid "<strong>Success</strong>"
+#~ msgstr "<strong></strong>"
+
+#~ msgid "Success"
+#~ msgstr "成功"
+
+#~ msgid "Add new post"
+#~ msgstr "新しい記事を作成"
+
+#~ msgid "Edit post"
+#~ msgstr "記事を編集"
+
+#~ msgid "Add new frequently asked questions"
+#~ msgstr "よく出る質問を追加"
+
+#~ msgid "Edit frequently asked questions"
+#~ msgstr "よくある質問を編集"
+
+#, fuzzy
+#~| msgid "Patient Number"
+#~ msgid "Patient number"
+#~ msgstr "患者番号"
+
+#~ msgid "Account info"
+#~ msgstr "アカウント"
+
+#~ msgid "[vietuqoclab]Welcome"
+#~ msgstr "[vietuqoclab]へようこそ"
+
+#~ msgid "Welcome\n"
+#~ msgstr "ようこそ！\n"
+
+#~ msgid ""
+#~ "From now on, please log in to your account using your username and your "
+#~ "password.\n"
+#~ msgstr ""
+#~ "今後は、自分のユーザー名とパスワードを使用して自分のアカウントにログインし"
+#~ "てください。\n"
+
+#~ msgid "Rang Su Viet Quoc Group\n"
+#~ msgstr "Rang Su Viet Quoc Group\n"
+
+#~ msgid "27 Street No.3\n"
+#~ msgstr "27番地No.3\n"
+
+#~ msgid "Hiep Binh Phuoc Ward\n"
+#~ msgstr "Phường Hiệp Bình Phước \n"
+
+#~ msgid "Thu Đuc Distric, HCMC\n"
+#~ msgstr "Thu Đuc 区, HCM市\n"
+
+#~ msgid "TEL : (084) 08.37271267 , 08.37271 268 , Fax : 08.37271910\n"
+#~ msgstr ""
+#~ "電話 : (084) 08.37271267 , 08.37271 268 , ファックス : 08.37271910\n"
+
+#~ msgid "WEB : http://www.vietquoclab.com/\n"
+#~ msgstr "ウェブ : http://www.vietquoclab.com/\n"
+
+#~ msgid "Message is require"
+#~ msgstr "メッセージは必須です"
+
+#~ msgid "[vietuqoclab]Thank you for your inquiry"
+#~ msgstr "[vietuqoclab]お問い合わせありがとうございます。"
+
+#~ msgid "This email is an automatic email\n"
+#~ msgstr "このメールは自動メールです。\n"
+
+#~ msgid "Our representative will contact you within 2 business days\n"
+#~ msgstr "2営業日以内に弊社の担当者からご連絡いたします。\n"
+
+#~ msgid ""
+#~ "Phone number (084) 08.37271267, (084) 08.37271 268\n"
+#~ "\n"
+#~ msgstr ""
+#~ "電話番号 (084) 08.37271267, (084) 08.37271 268\n"
+#~ "\n"
+
+#~ msgid "CAD/CAM"
+#~ msgstr "CAD/CAM冠"
+
+#~ msgid "Model"
+#~ msgstr "模型"
+
+#~ msgid "Download File CSV"
+#~ msgstr "CSV一括ダウンロード"
+
+#~ msgid "Detail Member"
+#~ msgstr "詳細メンバー"
+
+#~ msgid "Edit Customer"
+#~ msgstr "顧客を編集"
+
+#~ msgid "Dashboard"
+#~ msgstr "ダッシュボード"
+
+#~ msgid "In progress"
+#~ msgstr "製作中"
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#~ msgid "General"
+#~ msgstr "一般"
+
+#, fuzzy
+#~| msgid "Order status"
+#~ msgid "Order questions"
+#~ msgstr "対応状況"
+
+#~ msgid "Technical questions"
+#~ msgstr "技工物に関する質問"
+
+#~ msgid "About Item"
+#~ msgstr "制作物"
+
+#, fuzzy
+#~| msgid "Patient Name"
+#~ msgid "Patient Manager"
+#~ msgstr "患者様名"
+
+#, fuzzy
+#~| msgid "Patient Name %s %s"
+#~ msgid "Patients List"
+#~ msgstr "患者様名 %s %s"
+
+#~ msgid "Production"
+#~ msgstr "製作物"
+
+#~ msgid "%d unit"
+#~ msgid_plural "%d units"
+#~ msgstr[0] "%d 本"
+#~ msgstr[1] "%d 本"
+
+#~ msgid "Gender*"
+#~ msgstr "性別*"

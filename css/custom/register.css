@@ -1,0 +1,104 @@
+.section-policy .privacy-box {
+  margin-bottom: 25px;
+  background-color: #F5F5F5;
+  height: 250px;
+  margin-top: 20px;
+  overflow-y: scroll;
+  border:1px solid #ccc;
+}
+.section-policy .privacy-box .list-box {
+  min-height: 400px;
+  padding: 20px 15px 20px 20px;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 7px;
+  -webkit-border-radius:7px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.checkbox {
+  border-top: 1px solid #ccc;
+  padding-top: 20px ;
+  font-weight: bold;
+}
+.btn-item button:disabled {
+    border: 1px solid #eeeeee;
+    background-color: #eeeeee;
+    color: black;
+}
+.btn-black {
+  margin-top: -51px;
+}
+.app-footer {
+  position: relative;
+}
+.footer-bottom {
+  background-color: #013976;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding:15px 0px;
+}
+.footer-bottom1 {
+  background-color: #013976;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding:15px 0px;
+}
+.footer-bottom2 {
+  background-color: #013976;
+  position: static;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding:15px 0px;
+}
+.footer-text {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+.custom-app {
+  margin-top: 30px;
+}
+.customer-padding {
+  padding: 30px 150px;
+}
+.contai-center {
+    margin-top: 15%;
+}
+/*Forget Password*/
+.app {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content:center;
+  align-items: center;
+  -webkit-align-items:center;
+}
+.customer-bg {
+  background-color: white;
+  padding: 30px;
+  max-width: 577px;
+  width: 100%;
+  margin: auto;
+}
+.customer-app {
+  overflow:hidden;
+}
+.form-control.has-error {
+    border-color: #f86c6b ;
+}
+

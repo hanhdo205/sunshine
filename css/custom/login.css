@@ -1,0 +1,120 @@
+.app {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content:center;
+  align-items: center;
+  -webkit-align-items:center;
+}
+.customer-select {
+  text-align: center;
+}
+@media screen and (max-width: 1200px)  {
+  .contai-center{
+    margin-top: 8%;
+  }
+  .customer-select {
+    margin-top: 2rem!important;
+  }
+}
+.text-logo {
+	text-align: center;
+	font-size: 20px;
+}
+.customer-select {
+  position: relative;
+}
+.customer-select select {
+  display: none;
+}
+.select-selected {
+  text-align:center;
+}
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 35%;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: black transparent transparent transparent;
+}
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent black transparent;
+  top: 13px;
+}
+.select-items div,.select-selected {
+  color: black;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-top: 1px solid #cccc;
+  border-bottom: 1px solid #cccc;
+  cursor: pointer;
+  user-select: none;
+}
+.select-items div {
+  border-top: 0px;
+}
+.select-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  color:black;
+   text-align:center;
+}
+
+.select-hide {
+  display: none;
+}
+.app-footer {
+  position: relative;
+}
+.footer-bottom {
+  background-color: #013976;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 15px 0px;
+}
+.footer-text {
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+.customer-app {
+  overflow:hidden;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px)  {
+    
+    .card-body {
+      padding: 0px!important;
+    }
+    .col-6 {
+      -ms-flex: 0 0 44%!important;
+      flex: 0 0 44%!important;
+      max-width: 44%!important;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 577px)  {
+    .customer-width {
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .customer-app {
+      overflow-y:scroll;
+  }
+}
