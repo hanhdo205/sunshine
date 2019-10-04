@@ -1,0 +1,9 @@
+/data/*
+/_system_admins/caching/*
+/_system_admins/uploadfiladmin/caching/*
+/_system_admins/logs/*
+/class/config.DATABASE.php
+/upload
+/logs
+/.htaccess
+/.htpasswd
