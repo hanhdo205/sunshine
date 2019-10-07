@@ -8,9 +8,9 @@ $dbf = SINGLETON_MODEL::getInstance("BUSINESSLOGIC");
 
 $data = array();
 
-$result = $dbf->getDynamic("events","","");
-if ($dbf->totalRows($result) > 0) {
-	 while ($row = $dbf->nextData($result)) {
+$events = $dbf->getDynamic("events","","");
+if ($dbf->totalRows($events) > 0) {
+	 while ($row = $dbf->nextData($events)) {
 		 $data[] = array(
 		  'id'   => $row["id"],
 		  'title'   => $row["title"],
@@ -18,7 +18,8 @@ if ($dbf->totalRows($result) > 0) {
 		  'start'   => $row["start"],
 		  'end'   => $row["end"],
 		  'all_day' => $row["allday"],
-		  'pic' => $row["pic"]
+		  'pic' => $row["pic"],
+		  'src' => 'event'
 		 );
 	 }
 }

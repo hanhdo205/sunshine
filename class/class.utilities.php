@@ -560,7 +560,7 @@ class UTILITIES {
 	   return urldecode($string);
 	}
 	
-	function get_next_reminder_date($start_date, $frequency, $selected_time)
+	function get_next_reminder_date($start_date, $frequency, $selected_time='')
 	{
 		$date = new DateTime($start_date);
 		$selected = new DateTime($selected_time);

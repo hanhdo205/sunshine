@@ -41,30 +41,49 @@
    },
 
 
-   events: "/modum/member/events.php",
-	eventColor: '#e5d7b4',
+	/*events: "/modum/member/events.php",
+	eventColor: '#e5d7b4',*/
+	eventSources: [
+		{
+		  url: '/modum/member/events.php',
+		  color: '#c1cc68',
+		  textColor: 'black'
+		},
+		{
+		  url: '/modum/member/birthdays.php',
+		  color: '#f9bb62',
+		  textColor: 'black'
+		}
+	],
 
    eventRender: function(event, $el) {
 	    var event_desc = event.description;
 	    var event_pic = event.pic;
 		if(event_desc !== "" ) {event_desc = "<br>" + event.description;}
 		if(event_pic !== "" ) {
-			event_pic = '<img class="align-self-start mr-3" src="/upload/' + event_pic + '" ' + 
-             'alt="' + event.title + '" width="100">';
-			}
+			if(event.src=="event")
+				event_pic = '<img class="align-self-start mr-3" src="/upload/' + event_pic + '" ' + 'alt="' + event.title + '" width="100">';
+			else if(event.src=="birthday")
+				event_pic = '<img class="align-self-start mr-3" src="/' + event_pic + '" ' + 'alt="' + event.title + '" width="100">';
+		}
 		
 		var event_content = "";
+		var event_title = event.title;
 	    if (event.all_day === 'true') {
 			 event.allDay = true;
 			 event_content = '<div class="media">' + event_pic + '<div class="media-body"><strong><?php echo T_("Date");?>:</strong> ' + $.fullCalendar.formatDate(event.start, "MM/DD") + event_desc + '</div></div>';
 			 
-			} else {
+		} else {
 			 event.allDay = false;
 			 event_content = '<div class="media">' + event_pic + '<div class="media-body"><strong><?php echo T_("Start");?>:</strong> ' + $.fullCalendar.formatDate(event.start, "MM/DD HH:mm") + '<br><strong><?php echo T_("End");?>:</strong> ' + $.fullCalendar.formatDate(event.end, "MM/DD HH:mm") + event_desc + '</div></div>';
-			}
+		}
+		if(event.src=="birthday") {
+			event_title = event.title;
+			event_content = '<div class="media">' + event_pic + '<div class="media-body">' + event.description + '</div></div>';
+		}
 	   
       $el.popover({
-        title: event.title,
+        title: event_title,
         content: event_content,
         trigger: 'hover',
         placement: 'top',
@@ -318,282 +337,261 @@
    });
    },
    eventClick: function(event) {
-	   var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
-	   var start_date = $.fullCalendar.formatDate(event.start, "Y-MM-DD");
-	   var start_time = $.fullCalendar.formatDate(event.start, "HH:mm");
-	   var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");				   
-	   var end_date = $.fullCalendar.formatDate(event.end, "Y-MM-DD");				   
-	   var end_time = $.fullCalendar.formatDate(event.end, "HH:mm");
-	   var event_pic = '';
-	   if(event.pic !=="") {
-		   //if(event.pic='undefined') event.pic = filename;
-			event_pic = '<img src="/upload/' + event.pic + '" ' + 'alt="' + event.title + '" width="200" class="align-self-start mr-3">';
-	   }
-	   var checked = "";
-	   var is_all_day = "";
-	   if (event.allDay == true) {
-		 checked = "checked";
-		 is_all_day = "true";
-		 start = start_date;
-		 end = end_date;
-		}
-	   $.confirm({
-		boxWidth: '50%',
-		useBootstrap: false,
-		closeIcon: false,
-		title: '<?php echo T_("Edit Event");?>',
-		content: '' +
-		'<form id="eventform" action="" class="custom_confirm_form formName">' +
-		
-		'<input type="hidden" id="allday_text" name="allday_text" value="' + is_all_day + '">' +
-		'<input type="hidden" id="event_id" name="event_id" value="' + event.id + '">' +
-		'<div class="media">' +
-			event_pic +
-			'<div class="media-body">' +
-				'<div class="form-group">' +
-					'<div class="row">' +
-						'<div class="col-md-12">' +
-							'<label><?php echo T_("Title");?></label>' +
-							'<input type="text" name="title" placeholder="<?php echo T_("Title");?>" class="title form-control" value="'+ event.title+'" required />' +
-						'</div>' +
-					'</div>' +
-					'<div class="row">' +
-						'<div class="col-md-12">' +
-							'<div class="form-check checkbox">' +
-								'<input type="checkbox" id="allday" class="form-check-input" name="allday" value="true" ' + checked + '>' +
-								'<label class="form-check-label" for="allday"><?php echo T_("Allday");?></label>' +
-							'</div>' +
-						'</div>' +
-						'<div class="datetime col-md-6">' +
+	   
+		   var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
+		   var start_date = $.fullCalendar.formatDate(event.start, "Y-MM-DD");
+		   var start_time = $.fullCalendar.formatDate(event.start, "HH:mm");
+		   var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");				   
+		   var end_date = $.fullCalendar.formatDate(event.end, "Y-MM-DD");				   
+		   var end_time = $.fullCalendar.formatDate(event.end, "HH:mm");
+		   var event_pic = '';
+		   if(event.pic !=="") {
+				event_pic = '<img src="/upload/' + event.pic + '" ' + 'alt="' + event.title + '" width="200" class="align-self-start mr-3">';
+		   }
+		   var checked = "";
+		   var is_all_day = "";
+		   if (event.allDay == true) {
+			 checked = "checked";
+			 is_all_day = "true";
+			 start = start_date;
+			 end = end_date;
+			}
+			if(event.src=="event") {
+				   $.confirm({
+					boxWidth: '50%',
+					useBootstrap: false,
+					closeIcon: false,
+					title: '<?php echo T_("Edit Event");?>',
+					content: '' +
+					'<form id="eventform" action="" class="custom_confirm_form formName">' +
+					
+					'<input type="hidden" id="allday_text" name="allday_text" value="' + is_all_day + '">' +
+					'<input type="hidden" id="event_id" name="event_id" value="' + event.id + '">' +
+					'<div class="media">' +
+						event_pic +
+						'<div class="media-body">' +
 							'<div class="form-group">' +
-								'<div class="input-group date" id="datetimepicker6">' +
-									'<input type="text" id="start_date" class="form-control input-datepicker start_date" placeholder="<?php echo T_("Time start");?>" value="'+start+'" />' +
+								'<div class="row">' +
+									'<div class="col-md-12">' +
+										'<label><?php echo T_("Title");?></label>' +
+										'<input type="text" name="title" placeholder="<?php echo T_("Title");?>" class="title form-control" value="'+ event.title+'" required />' +
+									'</div>' +
 								'</div>' +
-							'</div>' +
-						'</div>' +
-						'<div class="datetime col-md-6">' +
-							'<div class="form-group">' +
-								'<div class="input-group date" id="datetimepicker7">' +
-									'<input type="text" id="end_date" class="form-control input-datepicker end_date" placeholder="<?php echo T_("Time end");?>" value="'+end+'" />' +
+								'<div class="row">' +
+									'<div class="col-md-12">' +
+										'<div class="form-check checkbox">' +
+											'<input type="checkbox" id="allday" class="form-check-input" name="allday" value="true" ' + checked + '>' +
+											'<label class="form-check-label" for="allday"><?php echo T_("Allday");?></label>' +
+										'</div>' +
+									'</div>' +
+									'<div class="datetime col-md-6">' +
+										'<div class="form-group">' +
+											'<div class="input-group date" id="datetimepicker6">' +
+												'<input type="text" id="start_date" class="form-control input-datepicker start_date" placeholder="<?php echo T_("Time start");?>" value="'+start+'" />' +
+											'</div>' +
+										'</div>' +
+									'</div>' +
+									'<div class="datetime col-md-6">' +
+										'<div class="form-group">' +
+											'<div class="input-group date" id="datetimepicker7">' +
+												'<input type="text" id="end_date" class="form-control input-datepicker end_date" placeholder="<?php echo T_("Time end");?>" value="'+end+'" />' +
+											'</div>' +
+										'</div>' +
+									'</div>' +
 								'</div>' +
-							'</div>' +
-						'</div>' +
-					'</div>' +
-					
-					'<div class="row">' +
-						'<div class="col-md-12">' +
-							'<div class="input-group date" id="textdesc">' +
-								'<textarea id="description" class="form-control" style="border:1px solid #ced4da;width:100%;" placeholder="<?php echo T_("Description");?>">'+ event.description+'</textarea>' +
-							'</div>' +
-						'</div>' +
-					'</div>' +
-					
-					'<div class="row mt-3">' +
-						'<div class="col-md-12">' +
-							'<div class="input-group file_input">' +
-								'<input id="eventpicture" type="file" name="eventpic" />' +
-							'</div>' +
-						'</div>' +
-					'</div>' +
-				'<div class="form-group">' +
-					
-				'</div>' +
-			'</div>' +
-		'</div>' +
-		'</form>',
-		buttons: {
-			formSubmit: {
-				text: '<?php echo T_("Submit");?>',
-				btnClass: 'btn-blue',
-				action: function () {
-					
-					var title = this.$content.find('.title').val();
-					var event_id = this.$content.find('#event_id').val();
-					var desc = this.$content.find('textarea#description').val();
-					var new_start = this.$content.find('.start_date').val();
-					var new_end = this.$content.find('.end_date').val();
-					var all_day = this.$content.find('#allday_text').val();
-					var file_data = $("#eventpicture").prop("files")[0];  
-					var form_data = new FormData();
-					if (all_day === 'true') {
-					 allDay = true;
-					} else {
-					 allDay = false;
-					}
-					if(!title){
-						$.alert('<?php echo T_("Title can not be blank");?>');
-						return false;
-					}
-					
-					form_data.append("action", "update_events");
-					form_data.append("file", file_data);
-					form_data.append("title", title);
-					form_data.append("start", new_start);
-					form_data.append("end", new_end);
-					form_data.append("desc", desc);
-					form_data.append("allday", all_day);
-					form_data.append("id", event_id);
-					
-					$.ajax({
-						   type: "POST",
-						   url: ajax_url,
-						   data: form_data,
-						   cache: false,
-						   contentType: false,
-						   processData: false,
-						   dataType: 'text',
-						   success: function(response) {						
 								
+								'<div class="row">' +
+									'<div class="col-md-12">' +
+										'<div class="input-group date" id="textdesc">' +
+											'<textarea id="description" class="form-control" style="border:1px solid #ced4da;width:100%;" placeholder="<?php echo T_("Description");?>">'+ event.description+'</textarea>' +
+										'</div>' +
+									'</div>' +
+								'</div>' +
+								
+								'<div class="row mt-3">' +
+									'<div class="col-md-12">' +
+										'<div class="input-group file_input">' +
+											'<input id="eventpicture" type="file" name="eventpic" />' +
+										'</div>' +
+									'</div>' +
+								'</div>' +
+							'<div class="form-group">' +
+								
+							'</div>' +
+						'</div>' +
+					'</div>' +
+					'</form>',
+					buttons: {
+						formSubmit: {
+							text: '<?php echo T_("Submit");?>',
+							btnClass: 'btn-blue',
+							action: function () {
+								
+								var title = this.$content.find('.title').val();
+								var event_id = this.$content.find('#event_id').val();
+								var desc = this.$content.find('textarea#description').val();
+								var new_start = this.$content.find('.start_date').val();
+								var new_end = this.$content.find('.end_date').val();
+								var all_day = this.$content.find('#allday_text').val();
+								var file_data = $("#eventpicture").prop("files")[0];  
+								var form_data = new FormData();
+								if (all_day === 'true') {
+								 allDay = true;
+								} else {
+								 allDay = false;
+								}
+								if(!title){
+									$.alert('<?php echo T_("Title can not be blank");?>');
+									return false;
+								}
+								
+								form_data.append("action", "update_events");
+								form_data.append("file", file_data);
+								form_data.append("title", title);
+								form_data.append("start", new_start);
+								form_data.append("end", new_end);
+								form_data.append("desc", desc);
+								form_data.append("allday", all_day);
+								form_data.append("id", event_id);
+								
+								$.ajax({
+									   type: "POST",
+									   url: ajax_url,
+									   data: form_data,
+									   cache: false,
+									   contentType: false,
+									   processData: false,
+									   dataType: 'text',
+									   success: function(response) {						
+											
+											$.confirm({
+												title: false,
+												closeIcon: false,
+												//autoClose: 'confirm|6000',
+												content: '<?php echo T_("Completed");?>',
+												buttons: {
+													confirm: {
+														text: '<?php echo T_("Closed");?>',
+														action: function(){
+															$('#calendar').fullCalendar( 'refetchEvents' );
+															
+														}
+													}
+												}
+											});	
+											return false;
+									   }
+								   });
+								   /*calendar.fullCalendar('renderEvent',
+								   {
+									   title: title,
+									   start: new_start,
+									   end: new_end,
+									   description: desc,
+									   //pic: '/upload/' . event.pic,
+									   allDay: allDay
+								   },
+								   true
+								   );*/
+								   
+							}
+						},
+						somethingElse: {
+							text: '<?php echo T_("Delete");?>',
+							btnClass: 'btn-danger',
+							action: function(){
 								$.confirm({
 									title: false,
 									closeIcon: false,
-									//autoClose: 'confirm|6000',
-									content: '<?php echo T_("Completed");?>',
+									content: '<?php echo T_("Are you sure you want to delete?");?>',
 									buttons: {
 										confirm: {
-											text: '<?php echo T_("Closed");?>',
+											text: '<?php echo T_("Yes");?>',
 											action: function(){
-												$('#calendar').fullCalendar( 'refetchEvents' );
-												
+												$.ajax({
+													type: "POST",
+													url: ajax_url,
+													data: "&id=" + event.id + "&action=delete_event",
+													 success: function(json) {
+														$('#calendar').fullCalendar('removeEvents', event.id);
+														//$.alert('<?php echo T_("Deleted");?>');
+														//return false;
+														$('#calendar').fullCalendar( 'refetchEvents' );
+													}
+												});
 											}
+										},
+										cancel: {
+											text: '<?php echo T_("No");?>',
 										}
 									}
-								});	
-								return false;
-						   }
-					   });
-					   /*calendar.fullCalendar('renderEvent',
-					   {
-						   title: title,
-						   start: new_start,
-						   end: new_end,
-						   description: desc,
-						   //pic: '/upload/' . event.pic,
-						   allDay: allDay
-					   },
-					   true
-					   );*/
-					   
-				}
-			},
-			somethingElse: {
-				text: '<?php echo T_("Delete");?>',
-				btnClass: 'btn-danger',
-				action: function(){
-					$.confirm({
-						title: false,
-						closeIcon: false,
-						content: '<?php echo T_("Are you sure you want to delete?");?>',
-						buttons: {
-							confirm: {
-								text: '<?php echo T_("Yes");?>',
-								action: function(){
-									$.ajax({
-										type: "POST",
-										url: ajax_url,
-										data: "&id=" + event.id + "&action=delete_event",
-										 success: function(json) {
-											$('#calendar').fullCalendar('removeEvents', event.id);
-											//$.alert('<?php echo T_("Deleted");?>');
-											//return false;
-											$('#calendar').fullCalendar( 'refetchEvents' );
-										}
-									});
-								}
-							},
-							cancel: {
-								text: '<?php echo T_("No");?>',
+								});
 							}
+						},
+						cancel: {
+							text: '<?php echo T_("Cancel");?>',
+							//close
 						}
-					});
-				}
-			},
-			cancel: {
-				text: '<?php echo T_("Cancel");?>',
-				//close
+					},
+					onContentReady: function () {
+						
+							
+						// bind to events
+						var jc = this;
+						
+						$('#eventform :checkbox').change(function() {
+							// this will contain a reference to the checkbox   
+							if (this.checked) {
+								// the checkbox is now checked 
+								
+								$('.start_date').val();
+								$('.end_date').val();
+								//$('.datetime').hide();
+								$('#allday_text').val('true');
+							} else {
+								// the checkbox is now no longer checked
+								//$('.datetime').show();
+								$('#allday_text').val('false');
+							}
+						});
+						//date range 1
+						if ($('#start_date').length > 0 && $('#end_date').length > 0) {
+
+							$('#start_date').datetimepicker({
+								format: 'Y-m-d H:i',
+								defaultTime: start_time,
+								dayOfWeekStart:1,
+								defaultDate: start_date,
+								step:30,
+								onShow: function (ct) {
+									this.setOptions({
+										maxDate: $('#end_date').val() ? $('#end_date').val().substring(0, 10) : false
+									});
+								},
+							});
+							$('#end_date').datetimepicker({
+								format: 'Y-m-d H:i',
+								defaultDate: end_date,
+								defaultTime: end_time,
+								dayOfWeekStart:1,
+								step:30,
+								onShow: function (ct) {
+									this.setOptions({
+										minDate: $('#start_date').val() ? $('#start_date').val().substring(0, 10) : false
+									});
+								},
+							});
+						}
+						this.$content.find('form').on('submit', function (e) {
+							// if the user submits the form by pressing enter in the field.
+							e.preventDefault();
+							jc.$$formSubmit.trigger('click'); // reference the button and click it
+						});
+					}
+				});
 			}
 		},
-		onContentReady: function () {
-			
-				
-			// bind to events
-			var jc = this;
-			
-			$('#eventform :checkbox').change(function() {
-				// this will contain a reference to the checkbox   
-				if (this.checked) {
-					// the checkbox is now checked 
-					
-					$('.start_date').val();
-					$('.end_date').val();
-					//$('.datetime').hide();
-					$('#allday_text').val('true');
-				} else {
-					// the checkbox is now no longer checked
-					//$('.datetime').show();
-					$('#allday_text').val('false');
-				}
-			});
-			//date range 1
-			if ($('#start_date').length > 0 && $('#end_date').length > 0) {
-
-				$('#start_date').datetimepicker({
-					format: 'Y-m-d H:i',
-					defaultTime: start_time,
-					dayOfWeekStart:1,
-					defaultDate: start_date,
-					step:30,
-					onShow: function (ct) {
-						this.setOptions({
-							maxDate: $('#end_date').val() ? $('#end_date').val().substring(0, 10) : false
-						});
-					},
-				});
-				$('#end_date').datetimepicker({
-					format: 'Y-m-d H:i',
-					defaultDate: end_date,
-					defaultTime: end_time,
-					dayOfWeekStart:1,
-					step:30,
-					onShow: function (ct) {
-						this.setOptions({
-							minDate: $('#start_date').val() ? $('#start_date').val().substring(0, 10) : false
-						});
-					},
-				});
-			}
-			this.$content.find('form').on('submit', function (e) {
-				// if the user submits the form by pressing enter in the field.
-				e.preventDefault();
-				jc.$$formSubmit.trigger('click'); // reference the button and click it
-			});
-		}
-	});
-	/*var decision = confirm("Do you really want to do that?"); 
-	if (decision) {
-	$.ajax({
-		type: "POST",
-		url: "/modum/member/delete_event.php",
-		data: "&id=" + event.id,
-		 success: function(json) {
-			 $('#calendar').fullCalendar('removeEvents', event.id);
-			  $.alert('<?php echo T_("Completed");?>');
-						return false;}
-	});
-	}*/
-  	},
-   /*eventResize: function(event) {
-	var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD HH:mm:ss");
-	var end = $.fullCalendar.formatDate(event.end, "Y-MM-DD HH:mm:ss");		
-	   $.ajax({
-		   url: '/modum/member/update_events.php',
-		   data: 'title='+ event.title+'&start='+ start +'&end='+ end +'&desc='+ event.description +'&id='+ event.id ,
-		   type: "POST",
-		   success: function(json) {
-			$.alert('<?php echo T_("Completed");?>');
-		   }
-	   });
-	}*/
+	
    <?php } ?>
   });
   
