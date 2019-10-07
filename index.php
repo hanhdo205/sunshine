@@ -252,7 +252,7 @@ switch($page) {
 		</script>
 		</head>
 
-		<body class=" app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+		<body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
 			
 					<?php
 						include ("_header_member.php");

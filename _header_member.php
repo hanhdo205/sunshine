@@ -38,14 +38,16 @@ function fixAspect(img) {
       <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <button class="navbar-toggler sidebar-minimizer brand-minimizer d-md-down-none" type="button" data-toggle="sidebar-lg-show">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      
 	  <?php if($logo_exists) { ?>
       <a class="navbar-brand" href="#">
         <img class="navbar-brand-full" src="<?php echo $set_logo;?>" height="40" alt="logo">
+		<img class="navbar-brand-minimized" src="images/square_logo.png" width="30" height="30" alt="logo">
       </a>
       <?php } ?>
+		<button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+			<span class="navbar-toggler-icon"></span>
+		</button>
       <!--<ul class="nav navbar-nav d-md-down-none">
         <li class="nav-item px-3">
           <a class="nav-link" href="#">Dashboard</a>
