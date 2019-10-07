@@ -226,7 +226,7 @@ switch($page) {
 			echo $info['title'];
 			?>
 		</title>
-		<link rel="shortcut icon" href="<?php echo HOST?>favicon.png" />
+		<link rel="shortcut icon" href="<?php echo HOST?>favicon.ico" />
 
 		<!-- Fontfaces CSS-->
 		<link href="vendors/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
