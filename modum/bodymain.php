@@ -3,6 +3,10 @@ switch ($page) {
   case "home" :
 	include ("home.php");
     break;
+	
+  case "calendar" :
+    include ("member/_full_calendar.php");
+    break;
 
   case "member-list" :
 	if($rowgetInfo["roles_id"]<6)

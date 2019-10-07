@@ -1,11 +1,11 @@
-<?php
-if( $_SESSION["Free"]==1)
-{
-  $html->redirectURL("/system");
-}else
-{
+<link rel="stylesheet" href="/css/fullcalendar/fullcalendar.css" />
+<script src="/js/fullcalendar/moment.min.js"></script>
+<script src="/js/fullcalendar/fullcalendar.min.js"></script>
+<script src="/js/fullcalendar/locale-all.js"></script>
 
-?>
+<link rel="stylesheet" href="js/jconfirm/jquery-confirm.css">
+<script src="js/jconfirm/jquery-confirm.js"></script>
+
 <link rel="stylesheet" href="/js/datetimepicker/jquery.datetimepicker.css">
 <script src="/js/datetimepicker/jquery.datetimepicker.full.js"></script>
 <style>
@@ -26,9 +26,8 @@ if( $_SESSION["Free"]==1)
   var m = date.getMonth();
   var y = date.getFullYear();
 
-
   var calendar = $('#calendar').fullCalendar({
-   locale: '<?php echo $_SESSION['language'];?>',
+   locale: '<?php echo $datepicker_lang[$_SESSION['language']];?>',
    <?php 
 	if($rowgetInfo["roles_id"]!=15){ ?>
 		editable: true,
@@ -57,11 +56,11 @@ if( $_SESSION["Free"]==1)
 		var event_content = "";
 	    if (event.all_day === 'true') {
 			 event.allDay = true;
-			 event_content = '<div class="media">' + event_pic + '<div class="media-body"><strong><?php echo _DATE;?>:</strong> ' + $.fullCalendar.formatDate(event.start, "MM/DD") + event_desc + '</div></div>';
+			 event_content = '<div class="media">' + event_pic + '<div class="media-body"><strong><?php echo T_("Date");?>:</strong> ' + $.fullCalendar.formatDate(event.start, "MM/DD") + event_desc + '</div></div>';
 			 
 			} else {
 			 event.allDay = false;
-			 event_content = '<div class="media">' + event_pic + '<div class="media-body"><strong><?php echo _START;?>:</strong> ' + $.fullCalendar.formatDate(event.start, "MM/DD HH:mm") + '<br><strong><?php echo _END;?>:</strong> ' + $.fullCalendar.formatDate(event.end, "MM/DD HH:mm") + event_desc + '</div></div>';
+			 event_content = '<div class="media">' + event_pic + '<div class="media-body"><strong><?php echo T_("Start");?>:</strong> ' + $.fullCalendar.formatDate(event.start, "MM/DD HH:mm") + '<br><strong><?php echo T_("End");?>:</strong> ' + $.fullCalendar.formatDate(event.end, "MM/DD HH:mm") + event_desc + '</div></div>';
 			}
 	   
       $el.popover({
@@ -89,19 +88,19 @@ if( $_SESSION["Free"]==1)
 		boxWidth: '50%',
 		useBootstrap: false,
 		closeIcon: false,
-		title: '<?php echo _ADDEVENT;?>',
+		title: '<?php echo T_("Add Event");?>',
 		content: '' +
-		'<form id="eventform" action="" class="formName">' +
+		'<form id="eventform" action="" class="custom_confirm_form formName">' +
 		'<div class="form-group">' +
-		'<label><?php echo _EVENTITLE;?></label>' +
-		'<input type="text" name="title" placeholder="<?php echo _EVENTITLE;?>" class="title form-control" required />' +
+		'<label><?php echo T_("Title");?></label>' +
+		'<input type="text" name="title" placeholder="<?php echo T_("Title");?>" class="title form-control" required />' +
 		'</div>' +
 		'<input type="hidden" id="allday_text" name="allday_text" value="">' +
 		'<div class="row allday">' +
 			'<div class="col-md-12">' +
 					'<div class="form-check checkbox">' +
 						'<input type="checkbox" id="allday" class="form-check-input" name="allday" value="true">' +
-						'<label class="form-check-label" for="allday"><?php echo _ALLDAY;?></label>' +
+						'<label class="form-check-label" for="allday"><?php echo T_("All day");?></label>' +
 					'</div>' +
 			'</div>' +
 		'</div>' +
@@ -109,21 +108,21 @@ if( $_SESSION["Free"]==1)
 			'<div class="datetime col-md-6">' +
 				'<div class="form-group">' +
 					'<div class="input-group date" id="datetimepicker6">' +
-						'<input type="text" id="start_date" class="form-control input-datepicker create_start_time" placeholder="<?php echo _TIMESTART;?>" />' +
+						'<input type="text" id="start_date" class="form-control input-datepicker create_start_time" placeholder="<?php echo T_("Time start");?>" />' +
 					'</div>' +
 				'</div>' +
 			'</div>' +
 			'<div class="datetime col-md-6">' +
 				'<div class="form-group">' +
 					'<div class="input-group date" id="datetimepicker7">' +
-						'<input type="text" id="end_date" class="form-control input-datepicker create_end_time" placeholder="<?php echo _TIMEEND;?>" />' +
+						'<input type="text" id="end_date" class="form-control input-datepicker create_end_time" placeholder="<?php echo T_("Time end");?>" />' +
 					'</div>' +
 				'</div>' +
 			'</div>' +
 			'<div class="col-md-12">' +
 				'<div class="form-group">' +
 					'<div class="input-group date" id="textdesc">' +
-						'<textarea id="description" class="form-control" style="border:1px solid #ced4da;width:100%;" placeholder="<?php echo _DESCRIPTION;?>"></textarea>' +
+						'<textarea id="description" class="form-control" style="border:1px solid #ced4da;width:100%;" placeholder="<?php echo T_("Description");?>"></textarea>' +
 					'</div>' +
 				'</div>' +
 			'</div>' +
@@ -138,7 +137,7 @@ if( $_SESSION["Free"]==1)
 		'</form>',
 		buttons: {
 			formSubmit: {
-				text: '<?php echo _SUBMIT;?>',
+				text: '<?php echo T_("Submit");?>',
 				btnClass: 'btn-blue',
 				action: function () {
 					
@@ -147,7 +146,7 @@ if( $_SESSION["Free"]==1)
 					var title = this.$content.find('.title').val();
 					var desc = this.$content.find('textarea#description').val();
 					var all_day = this.$content.find('#allday_text').val();
-					var file_data = $("#eventpicture").prop("files")[0];   
+					var file_data = $("#eventpicture").prop("files")[0];  
 					var form_data = new FormData();
 					
 					if (all_day === 'true') {
@@ -158,7 +157,7 @@ if( $_SESSION["Free"]==1)
 						}
 					
 					if(!title){
-						$.alert('<?php echo _TITLEBLANK;?>');
+						$.alert('<?php echo T_("Title can not be blank");?>');
 						return false;
 					}if(!create_start_time){
 						create_start_time = $.fullCalendar.formatDate(start, "Y-MM-DD HH:mm:ss");
@@ -168,7 +167,7 @@ if( $_SESSION["Free"]==1)
 						all_day = 'true';
 						allDay = true;
 					}
-					
+					form_data.append('action', 'add_event');
 					form_data.append("file", file_data);
 					form_data.append("title", title);
 					form_data.append("start", create_start_time);
@@ -178,7 +177,7 @@ if( $_SESSION["Free"]==1)
 					
 					$.ajax({
 						   type: "POST",
-						   url: '/modum/member/add_events.php',
+						   url: ajax_url,
 						   data: form_data,
 						   cache: false,
 						   contentType: false,
@@ -189,12 +188,12 @@ if( $_SESSION["Free"]==1)
 											title: false,
 											closeIcon: false,
 											//autoClose: 'confirm|6000',
-											content: '<?php echo _EVENTCREATED;?>',
+											content: '<?php echo T_("Event created!");?>',
 											buttons: {
 												confirm: {
-													text: '<?php echo _CLOSED;?>',
+													text: '<?php echo T_("Closed");?>',
 													action: function(){
-														window.location.reload(true);
+														$('#calendar').fullCalendar( 'refetchEvents' );
 													}
 												}
 											}
@@ -202,20 +201,21 @@ if( $_SESSION["Free"]==1)
 									return false;
 								}
 					   });
-					   calendar.fullCalendar('renderEvent',
+					   /*calendar.fullCalendar('renderEvent',
 					   {
 						   title: title,
 						   start: create_start_time,
 						   end: create_end_time,
 						   description: desc,
+						   pic: '/upload/' . filename,
 						   allDay: allDay
 					   },
 					   true
-					   );
+					   );*/
 				}
 			},
 			cancel: {
-				text: '<?php echo _CANCEL;?>',
+				text: '<?php echo T_("Cancel");?>',
 				//close
 			},
 		},
@@ -313,7 +313,7 @@ if( $_SESSION["Free"]==1)
 	   data: 'title='+ event.title+'&start='+ start +'&end='+ end +'&desc='+ event.description +'&id='+ event.id ,
 	   type: "POST",
 	   success: function(json) {
-	    $.alert('<?php echo _DATAINSERTED;?>');
+	    $.alert('<?php echo T_("Completed");?>');
 	   }
    });
    },
@@ -326,6 +326,7 @@ if( $_SESSION["Free"]==1)
 	   var end_time = $.fullCalendar.formatDate(event.end, "HH:mm");
 	   var event_pic = '';
 	   if(event.pic !=="") {
+		   //if(event.pic='undefined') event.pic = filename;
 			event_pic = '<img src="/upload/' + event.pic + '" ' + 'alt="' + event.title + '" width="200" class="align-self-start mr-3">';
 	   }
 	   var checked = "";
@@ -340,9 +341,9 @@ if( $_SESSION["Free"]==1)
 		boxWidth: '50%',
 		useBootstrap: false,
 		closeIcon: false,
-		title: '<?php echo _EDITEVENT;?>',
+		title: '<?php echo T_("Edit Event");?>',
 		content: '' +
-		'<form id="eventform" action="" class="formName">' +
+		'<form id="eventform" action="" class="custom_confirm_form formName">' +
 		
 		'<input type="hidden" id="allday_text" name="allday_text" value="' + is_all_day + '">' +
 		'<input type="hidden" id="event_id" name="event_id" value="' + event.id + '">' +
@@ -352,38 +353,48 @@ if( $_SESSION["Free"]==1)
 				'<div class="form-group">' +
 					'<div class="row">' +
 						'<div class="col-md-12">' +
-							'<label><?php echo _EVENTITLE;?></label>' +
-							'<input type="text" name="title" placeholder="<?php echo _EVENTITLE;?>" class="title form-control" value="'+ event.title+'" required />' +
+							'<label><?php echo T_("Title");?></label>' +
+							'<input type="text" name="title" placeholder="<?php echo T_("Title");?>" class="title form-control" value="'+ event.title+'" required />' +
 						'</div>' +
 					'</div>' +
 					'<div class="row">' +
 						'<div class="col-md-12">' +
 							'<div class="form-check checkbox">' +
 								'<input type="checkbox" id="allday" class="form-check-input" name="allday" value="true" ' + checked + '>' +
-								'<label class="form-check-label" for="allday"><?php echo _ALLDAY;?></label>' +
+								'<label class="form-check-label" for="allday"><?php echo T_("Allday");?></label>' +
 							'</div>' +
 						'</div>' +
 						'<div class="datetime col-md-6">' +
 							'<div class="form-group">' +
 								'<div class="input-group date" id="datetimepicker6">' +
-									'<input type="text" id="start_date" class="form-control input-datepicker start_date" placeholder="<?php echo _TIMESTART;?>" value="'+start+'" />' +
+									'<input type="text" id="start_date" class="form-control input-datepicker start_date" placeholder="<?php echo T_("Time start");?>" value="'+start+'" />' +
 								'</div>' +
 							'</div>' +
 						'</div>' +
 						'<div class="datetime col-md-6">' +
 							'<div class="form-group">' +
 								'<div class="input-group date" id="datetimepicker7">' +
-									'<input type="text" id="end_date" class="form-control input-datepicker end_date" placeholder="<?php echo _TIMEEND;?>" value="'+end+'" />' +
+									'<input type="text" id="end_date" class="form-control input-datepicker end_date" placeholder="<?php echo T_("Time end");?>" value="'+end+'" />' +
 								'</div>' +
 							'</div>' +
 						'</div>' +
 					'</div>' +
 					
-					'<div class="input-group date" id="textdesc">' +
-						'<textarea id="description" class="form-control" style="border:1px solid #ced4da;width:100%;" placeholder="<?php echo _DESCRIPTION;?>">'+ event.description+'</textarea>' +
-						'<input id="eventpicture" type="file" name="eventpic" />' +
+					'<div class="row">' +
+						'<div class="col-md-12">' +
+							'<div class="input-group date" id="textdesc">' +
+								'<textarea id="description" class="form-control" style="border:1px solid #ced4da;width:100%;" placeholder="<?php echo T_("Description");?>">'+ event.description+'</textarea>' +
+							'</div>' +
+						'</div>' +
 					'</div>' +
-				'</div>' +
+					
+					'<div class="row mt-3">' +
+						'<div class="col-md-12">' +
+							'<div class="input-group file_input">' +
+								'<input id="eventpicture" type="file" name="eventpic" />' +
+							'</div>' +
+						'</div>' +
+					'</div>' +
 				'<div class="form-group">' +
 					
 				'</div>' +
@@ -392,7 +403,7 @@ if( $_SESSION["Free"]==1)
 		'</form>',
 		buttons: {
 			formSubmit: {
-				text: '<?php echo _SUBMIT;?>',
+				text: '<?php echo T_("Submit");?>',
 				btnClass: 'btn-blue',
 				action: function () {
 					
@@ -410,10 +421,11 @@ if( $_SESSION["Free"]==1)
 					 allDay = false;
 					}
 					if(!title){
-						$.alert('<?php echo _TITLEBLANK;?>');
+						$.alert('<?php echo T_("Title can not be blank");?>');
 						return false;
 					}
 					
+					form_data.append("action", "update_events");
 					form_data.append("file", file_data);
 					form_data.append("title", title);
 					form_data.append("start", new_start);
@@ -424,33 +436,33 @@ if( $_SESSION["Free"]==1)
 					
 					$.ajax({
 						   type: "POST",
-						   url: '/modum/member/update_events.php',
+						   url: ajax_url,
 						   data: form_data,
 						   cache: false,
 						   contentType: false,
 						   processData: false,
 						   dataType: 'text',
 						   success: function(response) {						
-								$('#calendar').fullCalendar('removeEvents', event.id);
+								
 								$.confirm({
 									title: false,
 									closeIcon: false,
 									//autoClose: 'confirm|6000',
-									content: '<?php echo _DATAINSERTED;?>',
+									content: '<?php echo T_("Completed");?>',
 									buttons: {
 										confirm: {
-											text: '<?php echo _CLOSED;?>',
+											text: '<?php echo T_("Closed");?>',
 											action: function(){
-												window.location.reload(true);
+												$('#calendar').fullCalendar( 'refetchEvents' );
+												
 											}
 										}
 									}
 								});	
-								//$.alert('<?php echo _DATAINSERTED;?>');
 								return false;
 						   }
 					   });
-					   calendar.fullCalendar('renderEvent',
+					   /*calendar.fullCalendar('renderEvent',
 					   {
 						   title: title,
 						   start: new_start,
@@ -460,42 +472,44 @@ if( $_SESSION["Free"]==1)
 						   allDay: allDay
 					   },
 					   true
-					   );
+					   );*/
 					   
 				}
 			},
 			somethingElse: {
-				text: '<?php echo _DELETEEVENT;?>',
+				text: '<?php echo T_("Delete");?>',
 				btnClass: 'btn-danger',
 				action: function(){
 					$.confirm({
 						title: false,
 						closeIcon: false,
-						content: '<?php echo _RUSUREDEL;?>',
+						content: '<?php echo T_("Are you sure you want to delete?");?>',
 						buttons: {
 							confirm: {
-								text: '<?php echo _YES;?>',
+								text: '<?php echo T_("Yes");?>',
 								action: function(){
 									$.ajax({
 										type: "POST",
-										url: "/modum/member/delete_event.php",
-										data: "&id=" + event.id,
+										url: ajax_url,
+										data: "&id=" + event.id + "&action=delete_event",
 										 success: function(json) {
-											 $('#calendar').fullCalendar('removeEvents', event.id);
-											  $.alert('<?php echo _EVENTDELETED;?>');
-														return false;}
+											$('#calendar').fullCalendar('removeEvents', event.id);
+											//$.alert('<?php echo T_("Deleted");?>');
+											//return false;
+											$('#calendar').fullCalendar( 'refetchEvents' );
+										}
 									});
 								}
 							},
 							cancel: {
-								text: '<?php echo _NOT;?>',
+								text: '<?php echo T_("No");?>',
 							}
 						}
 					});
 				}
 			},
 			cancel: {
-				text: '<?php echo _CANCEL;?>',
+				text: '<?php echo T_("Cancel");?>',
 				//close
 			}
 		},
@@ -563,7 +577,7 @@ if( $_SESSION["Free"]==1)
 		data: "&id=" + event.id,
 		 success: function(json) {
 			 $('#calendar').fullCalendar('removeEvents', event.id);
-			  $.alert('<?php echo _DATAINSERTED;?>');
+			  $.alert('<?php echo T_("Completed");?>');
 						return false;}
 	});
 	}*/
@@ -576,7 +590,7 @@ if( $_SESSION["Free"]==1)
 		   data: 'title='+ event.title+'&start='+ start +'&end='+ end +'&desc='+ event.description +'&id='+ event.id ,
 		   type: "POST",
 		   success: function(json) {
-			$.alert('<?php echo _DATAINSERTED;?>');
+			$.alert('<?php echo T_("Completed");?>');
 		   }
 	   });
 	}*/
@@ -590,34 +604,24 @@ if( $_SESSION["Free"]==1)
 
 </script>
 
-<section id="main">
-	<!-- WRAP -->
-	<div class="wrap">
-
-     <!-- USERMENU -->
-		
-		<!-- /USERMENU -->
-		<!-- CONTENT -->
-	 <section id="content">
-            <div id="main-container">
-                  <div id="page-content" style="min-height: 318px;">
-                        <div class="block">
-                            <div class="block-title">
-                                <h2><?php echo _CALLENDAR;?></h2>
-                            </div>
-
-                            <div id='calendar'></div>
-
-                        </div>
-                    </div>
-					
-            </div>
-    <div class="clearfix"></div>
-     </section>
-</div>
-<div class="clearfix"></div>
-</section>
-<div class="clearfix"></div>
-<?php
-}
-?>
+<main class="main">
+	<!-- Breadcrumb-->
+	<ol class="breadcrumb">
+	  <li class="breadcrumb-item"><a href="default.aspx"><?php echo T_('Home');?></a></li>
+	  <li class="breadcrumb-item active"><?php echo T_('Calendar');?></li>
+	</ol>
+	<div class="container-fluid">
+		<div class="animated fadeIn">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="card">
+						<div class="card-header"><?php echo T_('Calendar');?></div>
+						<div class="card-body">
+							<div id='calendar'></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>

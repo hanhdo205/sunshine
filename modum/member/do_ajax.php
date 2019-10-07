@@ -1209,6 +1209,90 @@ if (isset($_POST['action']) && $_POST['action']=='goal_setting_value') {
 	die();
 }
 
+// Add event
+if (isset($_POST['action']) && $_POST['action']=='add_event') {
+	$result = array("status"=>0,"data"=>"","msg"=>"No access");
+	if ($_REQUEST["title"]!="") 
+	{
+			
+		$title      = $_REQUEST["title"];
+		$start      = $_REQUEST["start"];
+		$end       = $_REQUEST["end"];
+		$desc       = $_REQUEST["desc"];
+		$allday       = $_REQUEST["allday"];
+		
+		if ($title != "") 
+		{
+			$result["status"]=1;
+			if ( 0 < $_FILES['file']['error'] ) {
+				echo 'Error: ' . $_FILES['file']['error'] . '<br>';
+			}
+			else {
+				move_uploaded_file($_FILES['file']['tmp_name'], '../../upload/' . $_FILES['file']['name']);
+			}
+			$str_deposit=T_('Event created!');
+			$array_events = array("title"=>$title,"content"=>$desc,"start"=>$start,"end"=>$end,"allday"=>$allday,"pic"=>$_FILES['file']['name']);
+			$dbf_cmnt->insertTable("events", $array_events);	
+		} 
+		
+		if($result["status"]==0) 
+		{
+		   $str_deposit=T_("There is no thing to save");
+		}
+			
+		$result["data"]=$str_deposit;
+		
+	}
+
+	header("Content-type:application/json"); 
+	echo json_encode($result);
+	// IMPORTANT: don't forget to "exit"
+	die();
+}
+
+// Update event
+if (isset($_POST['action']) && $_POST['action']=='update_events') {
+	$result = array("status"=>0,"data"=>"","msg"=>"No access");
+	if(isset($_REQUEST["id"]))
+	{
+		$result["status"]=1;
+		
+		if(isset($_FILES['file']) && @$_FILES['file']['name'] != ""){
+			if ( 0 < $_FILES['file']['error'] ) {
+				echo 'Error: ' . $_FILES['file']['error'] . '<br>';
+			}
+			else {
+				move_uploaded_file($_FILES['file']['tmp_name'], '../../upload/' . $_FILES['file']['name']);
+			}
+			
+			$array_updates = array("title"  => $_REQUEST['title'],"start" => $_REQUEST['start'],"end" => $_REQUEST['end'],"content" => $_REQUEST['desc'],"allday" => $_REQUEST['allday'],"pic" => $_FILES['file']['name']);
+			$update_arr = $dbf_cmnt->updateTable("events", $array_updates, "id='" . $_REQUEST['id'] . "'");
+	
+		} else {
+			$array_updates = array("title"  => $_REQUEST['title'],"start" => $_REQUEST['start'],"end" => $_REQUEST['end'],"content" => $_REQUEST['desc'],"allday" => $_REQUEST['allday']);
+			$update_arr = $dbf_cmnt->updateTable("events", $array_updates, "id='" . $_REQUEST['id'] . "'");
+		}
+		$str_deposit=T_('Completed');
+	}
+	if($result["status"]==0) 
+		{
+		   $str_deposit=T_('There is no thing to save');
+		}
+			
+		$result["data"]=$str_deposit;
+		
+	header("Content-type:application/json"); 
+	echo json_encode($result);
+	// IMPORTANT: don't forget to "exit"
+	die();
+}
+
+// Delete event
+if (isset($_POST['action']) && $_POST['action']=='delete_event') {
+	$id = $_POST['id'];
+	$dbf_cmnt->deleteDynamic("events", "id=" . $id);	
+}
+
 function download($filePath) 
 {     
     if(!empty($filePath)) 

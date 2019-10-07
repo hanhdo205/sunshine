@@ -18,6 +18,11 @@
 			  </a>
 			</li>-->
 			<li class="nav-item custome-item">
+			  <a class="nav-link responsible-person" href="calendar.aspx">
+				 <i class="nav-icon icon-calendar custom-icon"></i><?php echo T_('Events');?>
+			  </a>
+			</li>
+			<li class="nav-item custome-item">
 			  <a class="nav-link responsible-person" href="responsible-person.aspx">
 				 <i class="nav-icon icon-people custom-icon"></i><?php echo T_('Responsible person');?>
 			  </a>
