@@ -46,7 +46,7 @@ if ($dbf->totalRows($students) > 0) {
 			$data[] = array(
 			'id'   => $s_row["id"],
 			'title'   => sprintf(T_("%s's Birthday"),$s_row["last_name"]),
-			'description' => $s_row["first_name"] . ' - ' . $s_row["date_ngaysinh"],
+			'description' => $s_row["first_name"] . '<br>' . $s_row["date_ngaysinh"],
 			'start'   => $brithdate . ' 08:00:00',
 			'end'   => $brithdate . ' 17:00:00',
 			'all_day' => '',
