@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: vietquoc\n"
-"POT-Creation-Date: 2019-10-07 13:14+0700\n"
-"PO-Revision-Date: 2019-10-07 13:24+0700\n"
+"POT-Creation-Date: 2019-10-07 16:37+0700\n"
+"PO-Revision-Date: 2019-10-07 16:37+0700\n"
 "Last-Translator: \n"
 "Language-Team: hanhdo205@gmail.com\n"
 "Language: vi_VN\n"
@@ -138,7 +138,7 @@ msgstr "Mật khẩu mới"
 #: _change-pass.php:156 modum/member/_booking_detail.php:242
 #: modum/member/_customer_list.php:13 modum/member/_edit_member.php:22
 #: modum/member/_faq_category_list.php:14 modum/member/_faq_list.php:12
-#: modum/member/_full_calendar.php:140 modum/member/_full_calendar.php:396
+#: modum/member/_full_calendar.php:159 modum/member/_full_calendar.php:426
 #: modum/member/_list_member.php:12 modum/member/_member_create.php:31
 #: modum/member/_member_edit.php:58 modum/member/_member_list.php:172
 #: modum/member/_patient_list.php:12 modum/member/_post_list.php:13
@@ -827,7 +827,7 @@ msgstr "Địa chỉ trang web: "
 #: modum/member/_detail_patient.php:13 modum/member/_edit_member.php:30
 #: modum/member/_edit_post.php:19 modum/member/_faq_category.php:19
 #: modum/member/_faq_create.php:19 modum/member/_faq_edit.php:19
-#: modum/member/_faq_list.php:34 modum/member/_full_calendar.php:600
+#: modum/member/_faq_list.php:34 modum/member/_full_calendar.php:608
 #: modum/member/_global_setting_system.php:24 modum/member/_goal_setting.php:9
 #: modum/member/_list_member.php:22 modum/member/_member_create.php:53
 #: modum/member/_member_create_old.php:21 modum/member/_member_edit.php:81
@@ -1417,9 +1417,8 @@ msgstr "Đang xử lý"
 msgid "Processing"
 msgstr "Đang gia công"
 
-#: modum/member/_booking_detail.php:94 modum/member/_full_calendar.php:316
-#: modum/member/_full_calendar.php:441 modum/member/_full_calendar.php:570
-#: modum/member/_full_calendar.php:583 modum/member/_orders.php:68
+#: modum/member/_booking_detail.php:94 modum/member/_full_calendar.php:335
+#: modum/member/_full_calendar.php:471 modum/member/_orders.php:68
 #: modum/member/_orders_detail.php:530 modum/member/_payment_detail.php:466
 #: modum/member/_revenue_detail.php:76 modum/member/do_ajax.php:1275
 msgid "Completed"
@@ -1520,7 +1519,7 @@ msgstr "Nhập mật khẩu để tải file"
 
 #: modum/member/_booking_detail.php:234 modum/member/_customer_list.php:15
 #: modum/member/_edit_member.php:24 modum/member/_faq_category_list.php:16
-#: modum/member/_faq_list.php:14 modum/member/_full_calendar.php:479
+#: modum/member/_faq_list.php:14 modum/member/_full_calendar.php:509
 #: modum/member/_list_member.php:14 modum/member/_member_create.php:30
 #: modum/member/_member_edit.php:57 modum/member/_member_list.php:171
 #: modum/member/_patient_list.php:14 modum/member/_post_list.php:15
@@ -1533,7 +1532,7 @@ msgstr "Đồng ý"
 #: modum/member/_booking_history.php:126 modum/member/_customer_list.php:14
 #: modum/member/_edit_member.php:23 modum/member/_edit_member.php:172
 #: modum/member/_faq_category_list.php:15 modum/member/_faq_list.php:13
-#: modum/member/_full_calendar.php:218 modum/member/_full_calendar.php:502
+#: modum/member/_full_calendar.php:237 modum/member/_full_calendar.php:532
 #: modum/member/_list_member.php:13 modum/member/_member_create.php:29
 #: modum/member/_member_edit.php:56 modum/member/_member_list.php:170
 #: modum/member/_member_list.php:204 modum/member/_orders - Copy.php:152
@@ -2001,7 +2000,7 @@ msgid "No."
 msgstr "Số."
 
 #: modum/member/_data_logs.php:80 modum/member/_faq_list.php:75
-#: modum/member/_full_calendar.php:59 modum/member/_member_list.php:161
+#: modum/member/_full_calendar.php:74 modum/member/_member_list.php:161
 #: modum/member/_post_list.php:64
 #: modum/member/_revenue_expenditure_management.php:145
 msgid "Date"
@@ -2372,8 +2371,8 @@ msgid "Category edited successfully!"
 msgstr "Chỉnh sửa danh mục thành công!"
 
 #: modum/member/_faq_category_list.php:31 modum/member/_faq_list.php:76
-#: modum/member/_full_calendar.php:95 modum/member/_full_calendar.php:96
-#: modum/member/_full_calendar.php:356 modum/member/_full_calendar.php:357
+#: modum/member/_full_calendar.php:114 modum/member/_full_calendar.php:115
+#: modum/member/_full_calendar.php:376 modum/member/_full_calendar.php:377
 #: modum/member/_post_list.php:65
 msgid "Title"
 msgstr "Tiêu đề"
@@ -2401,73 +2400,73 @@ msgstr "Đã xóa thành công!"
 msgid "Frequently asked questions"
 msgstr "Các câu hỏi thường gặp"
 
-#: modum/member/_full_calendar.php:63
+#: modum/member/_full_calendar.php:78
 msgid "Start"
 msgstr "Bắt đầu"
 
-#: modum/member/_full_calendar.php:63
+#: modum/member/_full_calendar.php:78
 msgid "End"
 msgstr "Kết thúc"
 
-#: modum/member/_full_calendar.php:91
+#: modum/member/_full_calendar.php:110
 msgid "Add Event"
 msgstr "Thêm sự kiện"
 
-#: modum/member/_full_calendar.php:103
+#: modum/member/_full_calendar.php:122
 msgid "All day"
 msgstr "Cả ngày"
 
-#: modum/member/_full_calendar.php:111 modum/member/_full_calendar.php:370
+#: modum/member/_full_calendar.php:130 modum/member/_full_calendar.php:390
 msgid "Time start"
 msgstr "Bắt đầu"
 
-#: modum/member/_full_calendar.php:118 modum/member/_full_calendar.php:377
+#: modum/member/_full_calendar.php:137 modum/member/_full_calendar.php:397
 msgid "Time end"
 msgstr "Kết thúc"
 
-#: modum/member/_full_calendar.php:125 modum/member/_full_calendar.php:384
+#: modum/member/_full_calendar.php:144 modum/member/_full_calendar.php:406
 #: modum/member/_updateAccount.php:127
 #: modum/member/_updateAccount_customer.php:176
 msgid "Description"
 msgstr "Miêu tả"
 
-#: modum/member/_full_calendar.php:160 modum/member/_full_calendar.php:414
+#: modum/member/_full_calendar.php:179 modum/member/_full_calendar.php:444
 msgid "Title can not be blank"
 msgstr "Tiêu đề không được để trống"
 
-#: modum/member/_full_calendar.php:191 modum/member/do_ajax.php:1233
+#: modum/member/_full_calendar.php:210 modum/member/do_ajax.php:1233
 msgid "Event created!"
 msgstr "Đã thêm sự kiện!"
 
-#: modum/member/_full_calendar.php:194 modum/member/_full_calendar.php:444
+#: modum/member/_full_calendar.php:213 modum/member/_full_calendar.php:474
 msgid "Closed"
 msgstr "Đóng"
 
-#: modum/member/_full_calendar.php:344
+#: modum/member/_full_calendar.php:364
 msgid "Edit Event"
 msgstr "Chỉnh sửa sự kiện"
 
-#: modum/member/_full_calendar.php:364
+#: modum/member/_full_calendar.php:384
 msgid "Allday"
 msgstr "Cả ngày"
 
-#: modum/member/_full_calendar.php:470
+#: modum/member/_full_calendar.php:500
 msgid "Delete"
 msgstr "Xóa"
 
-#: modum/member/_full_calendar.php:476
+#: modum/member/_full_calendar.php:506
 msgid "Are you sure you want to delete?"
 msgstr "Bạn chắc chắn muốn xóa?"
 
-#: modum/member/_full_calendar.php:487
+#: modum/member/_full_calendar.php:517
 msgid "Deleted"
 msgstr "Đã xóa"
 
-#: modum/member/_full_calendar.php:495
+#: modum/member/_full_calendar.php:525
 msgid "No"
 msgstr "Không"
 
-#: modum/member/_full_calendar.php:601 modum/member/_full_calendar.php:608
+#: modum/member/_full_calendar.php:609 modum/member/_full_calendar.php:616
 msgid "Calendar"
 msgstr "Lịch"
 
@@ -3355,6 +3354,11 @@ msgstr "<h4 class=\"alert-heading\">Đã xong!</h4>Cập nhật hồ sơ thành 
 #: modum/member/_updateAccount_customer.php:279
 msgid "E-mail"
 msgstr "Email"
+
+#: modum/member/birthdays.php:48
+#, php-format
+msgid "%s's Birthday"
+msgstr "Sinh nhật của %s"
 
 #: modum/member/do_ajax.php:185 modum/member/do_ajax.php:219
 #: modum/member/do_ajax.php:253
